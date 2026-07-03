@@ -1,4 +1,4 @@
-# RAG
+# (HSR) RAG
 
 A Retrieval-Augmented Generation system with semantic search, a streaming web UI, and built-in evaluation. Ask natural-language questions and get answers grounded in your own documents.
 
@@ -18,7 +18,7 @@ Documents are split with sentence-aware chunking (respecting paragraph and sente
 pip install -r requirements.txt
 ```
 
-Create a `.env` file:
+Edit the `.env` file:
 
 ```
 GROQ_API_KEY=your-key-here
@@ -93,13 +93,6 @@ Returns accuracy, per-question hits, and retrieved sources.
 docker build -t rag .
 docker run -p 5000:5000 -e GROQ_API_KEY=your-key rag
 ```
-
-## Deploy to Railway
-
-1. Push to GitHub
-2. Connect repo to [Railway](https://railway.app)
-3. Add `GROQ_API_KEY` as an environment variable
-4. Deploy — Railway auto-detects the Dockerfile
 
 ## Tests
 

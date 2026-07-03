@@ -2,8 +2,6 @@
 
 A Retrieval-Augmented Generation system with semantic search, a streaming web UI, and built-in evaluation. Ask natural-language questions and get answers grounded in your own documents.
 
-![Python](https://img.shields.io/badge/python-3.10+-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Docker](https://img.shields.io/badge/docker-ready-blue)
-
 ## How it works
 
 ```

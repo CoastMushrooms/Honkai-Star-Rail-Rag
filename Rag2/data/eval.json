@@ -1,0 +1,22 @@
+[
+  {"query": "What is the best light cone for Firefly?", "expected_sources": ["Firefly"]},
+  {"query": "What teams should I use for Acheron?", "expected_sources": ["Acheron"]},
+  {"query": "How does Castorice's Newbud mechanic work?", "expected_sources": ["Castorice"]},
+  {"query": "Best relics for Ruan Mei?", "expected_sources": ["Ruan Mei"]},
+  {"query": "What is Kafka's best team for DoT?", "expected_sources": ["Kafka"]},
+  {"query": "How to build Sunday as a support?", "expected_sources": ["Sunday"]},
+  {"query": "What stats does Boothill need?", "expected_sources": ["Boothill"]},
+  {"query": "Which sustain unit is best for Mydei?", "expected_sources": ["Mydei"]},
+  {"query": "How does Tribbie's zone work?", "expected_sources": ["Tribbie"]},
+  {"query": "What is Aventurine's best planar ornament?", "expected_sources": ["Aventurine"]},
+  {"query": "Best F2P team for Jing Yuan?", "expected_sources": ["Jing Yuan"]},
+  {"query": "What does Silver Wolf's skill do?", "expected_sources": ["Silver Wolf"]},
+  {"query": "How to build Feixiao for Hunt DPS?", "expected_sources": ["Feixiao"]},
+  {"query": "What is Fugue's role in break teams?", "expected_sources": ["Fugue"]},
+  {"query": "Best light cone for Seele?", "expected_sources": ["Seele"]},
+  {"query": "What traces should I prioritize for Anaxa?", "expected_sources": ["Anaxa"]},
+  {"query": "How does Rappa's Sealform state work?", "expected_sources": ["Rappa"]},
+  {"query": "Best healer for Castorice teams?", "expected_sources": ["Hyacine"]},
+  {"query": "What is Robin's best support build?", "expected_sources": ["Robin"]},
+  {"query": "How to use Saber in Honkai Star Rail?", "expected_sources": ["Saber"]}
+]

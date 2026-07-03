@@ -1,0 +1,2451 @@
+[
+  {
+    "id": "firefly",
+    "title": "Firefly — Fire Destruction DPS",
+    "content": {
+      "overview": "5-star Fire Destruction Super Break DPS. Enters Complete Combustion via Ultimate, gaining enhanced skills that implant Fire Weakness and deal massive Break/Super Break damage. Self-sufficient energy loop and built-in survivability. Received ~70% DPS increase via Novaflare buff in v4.2.",
+      "light_cones": {
+        "best": "Whereabouts Should Dreams Rest (signature) — 60% Break Effect + 24% Break DMG taken debuff.",
+        "f2p": "On the Fall of an Aeon (Herta Store) — ATK% stacking converts to Break Effect via A6.",
+        "3_alt2": "Indelible Promise — Break Effect + CRIT Rate after Ultimate.",
+        "4_alt3": "Indelible Promise (alternative option)."
+      },
+      "stats_needed": "Break Effect 360% in combat (cap). ATK 2600+ (converts to BE via A6). SPD 150 base / 210 in Combustion for 4 Enhanced Skills. SPD breakpoint 154 with Ruan Mei = 164 for extra Cycle 0 action.",
+      "relics": {
+        "cavern": "4pc Iron Cavalry Against the Scourge — Break/Super Break DMG ignores DEF at 150%/250% BE.",
+        "planar": "Forge of the Kalpagni Lantern — SPD + 40% BE vs Fire Weak enemies.",
+        "main_stats": "Body: ATK%. Feet: SPD. Sphere: ATK% (NOT Fire DMG). Rope: Break Effect%.",
+        "sub_stats": "Break Effect > SPD > ATK% > ATK"
+      },
+      "teams": {
+        "premium": "Firefly + Fugue + The Dahlia + Ruan Mei (sustainless).",
+        "sustained": "Firefly + Fugue + The Dahlia + Gallagher.",
+        "f2p": "Firefly + Harmony MC + Ruan Mei + Gallagher.",
+        "budget": "Firefly + Harmony MC + Asta + Lynx."
+      },
+      "playstyle": "Use Skill in base form to burn HP and charge energy (50% max). Activate Ultimate for Combustion. In Combustion, Enhanced Skill implants Fire Weakness and deals massive Toughness DMG. Enhanced attacks self-heal 20-25% HP. Very SP hungry at E0.",
+      "important_traces": "A4 (Autoreactive Armor): Converts Toughness into 100%/150% Super Break at 150%/300% BE. A6 (Core Overload): Every 10 ATK above 1800 = 0.8% BE. A2: +25% BE in Combustion + delays countdown on Break."
+    }
+  },
+  {
+    "id": "acheron",
+    "title": "Acheron — Lightning Nihility DPS",
+    "content": {
+      "overview": "5-star Lightning Nihility burst DPS. Uses Slashed Dream stacks (not Energy) — 9 stacks from debuffs unleash devastating Ultimate ignoring Weakness Types. A4 gives 160% separate DMG multiplier with 2 Nihility teammates.",
+      "light_cones": {
+        "best": "Along the Passing Shore (signature) — CRIT DMG + Mirage Fizzle doubles stack gen.",
+        "f2p": "Good Night and Sleep Well (4-star) — up to 72% DMG at 3 debuff stacks.",
+        "3_alt2": "Boundless Choreo — CRIT vs Slowed/DEF-reduced.",
+        "4_alt3": "Incessant Rain — Vulnerability."
+      },
+      "stats_needed": "CRIT Rate 70%+, CRIT DMG 160%+, SPD 101-135+. NEVER build Energy Regen — she doesn't use Energy at all.",
+      "relics": {
+        "cavern": "4pc Pioneer Diver of Dead Waters — CRIT bonuses vs debuffed enemies.",
+        "planar": "Izumo Gensei — ATK + CRIT Rate with same-path teammate.",
+        "main_stats": "Body: CRIT. Feet: SPD/ATK%. Sphere: Lightning/ATK%. Rope: ATK% (NEVER ERR).",
+        "sub_stats": "CRIT Rate = CRIT DMG > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "Acheron + Jiaoqiu + Cipher + Aventurine.",
+        "e2": "Acheron + Jiaoqiu + Sunday + Permansor Terrae (E2 drops Nihility requirement).",
+        "f2p": "Acheron + Pela + Guinaifen + Gallagher.",
+        "budget": "Acheron + Pela + Fire MC (Burn via LC) + Asta."
+      },
+      "playstyle": "Skill every turn for blast DMG + 1 stack + Crimson Knot. Allies debuffing = more stacks. At 9 stacks, Ultimate hits all enemies in 4 strikes ignoring Weakness Type and shredding 20% All-Type RES.",
+      "important_traces": "A4 (The Abyss): 160% DMG multiplier with 2 Nihility allies (115% with 1). A2: Start with 5 stacks. A6: 30% CRIT DMG after Ultimate. Priority: Ult >= Talent > Skill > Basic."
+    }
+  },
+  {
+    "id": "castorice",
+    "title": "Castorice — Quantum Remembrance DPS",
+    "content": {
+      "overview": "5-star Quantum Remembrance DPS summoning memosprite Netherwing for devastating AoE Quantum burst. Drains ally HP to generate Newbud, charging Ultimate. Netherwing applies 20% All-Type RES reduction. Requires direct healers — shields break her kit.",
+      "light_cones": {
+        "best": "Make Farewells More Beautiful (signature) — 30% HP, 30% DEF Ignore, action advance on Netherwing exit.",
+        "f2p": "Off-path LCs with high base HP (1270+). Limited Remembrance F2P options.",
+        "3_alt2": "The Flower Remembers / Sweat Now Cry Less (Battle Pass) — CRIT DMG for memosprite.",
+        "4_alt3": "The Flower Remembers / Sweat Now Cry Less (Battle Pass) (alternative option)."
+      },
+      "stats_needed": "HP 7000+ (ideally 8000+). CRIT Rate ~100% in combat. CRIT DMG 200%+. Do NOT build SPD — ruins Poet set synergy. A4 provides natural SPD in combat.",
+      "relics": {
+        "cavern": "4pc Poet of Mourning Collapse — Quantum DMG + CRIT Rate 20/32% for her and memosprite at low SPD.",
+        "planar": "Bone Collection's Serene Demesne — HP + 28% CRIT DMG at 5000+ HP.",
+        "main_stats": "Body: CRIT DMG. Feet: HP%. Sphere: HP% (Quantum if HP>8500). Rope: HP%.",
+        "sub_stats": "CRIT Rate = CRIT DMG > HP%. Avoid SPD."
+      },
+      "teams": {
+        "premium": "Castorice + Evernight + Cyrene + Hyacine.",
+        "alt_premium": "Castorice + Evernight + Tribbie + Hyacine.",
+        "f2p": "Castorice + Remembrance MC + Pela + Hyacine.",
+        "budget": "Castorice + Remembrance MC + Gallagher + buffer."
+      },
+      "playstyle": "Skill drains ally HP for Newbud. Ultimate summons Netherwing (20% All-Type RES reduction). Netherwing uses Breath Scorches the Shadow (AoE, consumes its HP) or detonates on exit. A6 stacks 30% DMG per Breath use up to 6x. Global passive: allies enter Mooncocoon instead of dying.",
+      "important_traces": "A4: Natural SPD in combat for Poet set. A6: 30% DMG per Breath stack (up to 6). Memosprite Talent is highest upgrade priority."
+    }
+  },
+  {
+    "id": "aglaea",
+    "title": "Aglaea — Lightning Remembrance DPS",
+    "content": {
+      "overview": "5-star Lightning Remembrance hypercarry DPS. Summons memosprite and enters enhanced Ultimate state for multi-hit Lightning burst. Exceptional pairing with Sunday for action advance.",
+      "light_cones": {
+        "best": "Time Woven Into Gold (signature) — CRIT DMG + memosprite enhancement.",
+        "f2p": "Cruising in the Stellar Sea (Herta Store) — CRIT Rate.",
+        "3_alt2": "Off-path high CRIT stat LCs.",
+        "4_alt3": "Off-path high CRIT stat LCs. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate and CRIT DMG primary. ATK% for scaling. SPD important for more actions in enhanced state. Lightning DMG bonus.",
+      "relics": {
+        "cavern": "4pc Poet of Mourning Collapse or 4pc Band of Sizzling Thunder.",
+        "planar": "Bone Collection or Izumo Gensei.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Lightning DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "Aglaea + Sunday + Robin + sustain.",
+        "alt_premium": "Aglaea + Sunday + Tribbie + sustain.",
+        "f2p": "Aglaea + Sunday + Asta + sustain.",
+        "budget": "Aglaea + Asta + Remembrance MC + sustain."
+      },
+      "playstyle": "Build Energy for Ultimate enhanced state. Deal massive multi-hit Lightning DMG. Sunday's action advance maximizes turns during enhanced window.",
+      "important_traces": "Ultimate enhanced state is all her damage. Memosprite mechanics amplify further. CRIT scaling traces priority."
+    }
+  },
+  {
+    "id": "anaxa",
+    "title": "Anaxa — Wind Erudition DPS",
+    "content": {
+      "overview": "5-star Wind Erudition DPS/support. Implants all 7 Weakness Types via bouncing Skill. At 5+ weaknesses on an enemy, triggers Qualitative Disclosure (QD) for 30% more DMG and free extra Skill. A4: solo Erudition = 140% personal CRIT DMG; dual Erudition = 50% team DMG buff.",
+      "light_cones": {
+        "best": "Life Should Be Cast to Flames (signature) — 10 Energy/turn, 80% DMG vs implanted targets, 12% DEF reduction.",
+        "f2p": "The Great Cosmic Enterprise (Anniversary event) — ATK% scaling with weakness count.",
+        "3_alt2": "Before Dawn, Night on the Milky Way.",
+        "4_alt3": "Before Dawn, Night on the Milky Way. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate 80-100%, SPD 134-135 breakpoint, Energy Regen ~40-60%. ATK% has above-average value due to 756 base ATK.",
+      "relics": {
+        "cavern": "4pc Eagle of Twilight Line (action advance after Ult) or 4pc Genius of Brilliant Stars (with sig LC for DEF ignore) or Scholar Lost in Erudition.",
+        "planar": "Rutilant Arena (70%+ CR) or Izumo Gensei (dual Erudition).",
+        "main_stats": "Body: CRIT Rate. Feet: SPD. Sphere: Wind DMG. Rope: ATK%.",
+        "sub_stats": "CRIT Rate > CRIT DMG > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "Anaxa + Cyrene + Cerydra + Permansor Terrae (hypercarry).",
+        "dual_dps": "Anaxa + The Herta + Tribbie + Permansor Terrae.",
+        "f2p": "Anaxa + Remembrance MC + Asta + sustain.",
+        "budget": "Anaxa + Pela + Qingque + sustain."
+      },
+      "playstyle": "Every attack implants random Weakness via Talent. At 5 different weaknesses = QD state (30% DMG + free Skill). Ultimate puts all enemies in Sublimation (weak to all elements, frozen). Skill bounces between enemies. Cerydra duplicates Skills for burst windows.",
+      "important_traces": "A4 (Imperative Hiatus): 140% CRIT DMG solo or 50% team DMG with 2+ Erudition. A2: Basic ATK regens 10 extra Energy. A6: Ignores DEF based on weakness count."
+    }
+  },
+  {
+    "id": "archer",
+    "title": "Archer — Quantum Hunt DPS",
+    "content": {
+      "overview": "5-star Quantum Hunt DPS from the Fate/Stay Night collaboration. Single-target focused Quantum damage dealer following the Hunt path.",
+      "light_cones": {
+        "best": "His signature or Baptism of Pure Thought.",
+        "f2p": "Cruising in the Stellar Sea — CRIT Rate.",
+        "3_alt2": "Swordplay — stacking DMG on repeated hits.",
+        "4_alt3": "Swordplay (alternative option)."
+      },
+      "stats_needed": "CRIT Rate and CRIT DMG primary. ATK%. Quantum DMG bonus. SPD secondary.",
+      "relics": {
+        "cavern": "4pc Wastelander of Banditry Desert or Pioneer Diver of Dead Waters.",
+        "planar": "Rutilant Arena or Inert Salsotto.",
+        "main_stats": "Body: CRIT. Feet: SPD/ATK%. Sphere: Quantum DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "Archer + Sunday + Robin + sustain.",
+        "f2p": "Archer + buffer + debuffer + sustain.",
+        "budget": "Standard Hunt DPS team comp."
+      },
+      "playstyle": "Single-target Quantum DPS from the Fate collab. Focus on CRIT scaling for burst damage.",
+      "important_traces": "Standard Hunt DPS trace priority: Ultimate > Skill > Talent > Basic."
+    }
+  },
+  {
+    "id": "argenti",
+    "title": "Argenti — Physical Erudition DPS",
+    "content": {
+      "overview": "5-star Physical Erudition AoE DPS. Has a 180-energy Ultimate that deals massive AoE Physical DMG. Excels in Pure Fiction with many enemies. High energy cost means he needs Energy support.",
+      "light_cones": {
+        "best": "An Instant Before a Gaze (signature) — CRIT DMG + Ultimate DMG based on Energy.",
+        "f2p": "Today Is Another Peaceful Day — Energy-based DMG. Night on the Milky Way — ATK per enemy.",
+        "3_alt2": "Before Dawn — CRIT DMG + Skill/follow-up DMG.",
+        "4_alt3": "Before Dawn (alternative option)."
+      },
+      "stats_needed": "CRIT Rate 70%+, CRIT DMG as high as possible. ATK%. Energy Regen important for 180-cost Ultimate. SPD for turn count.",
+      "relics": {
+        "cavern": "4pc Champion of Streetwise Boxing — Physical DMG + ATK after attacking. Or 4pc Musketeer for ATK/SPD.",
+        "planar": "Inert Salsotto — CRIT Rate + Ultimate DMG. Space Sealing Station — ATK at SPD threshold.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Physical DMG. Rope: Energy Regen or ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "Argenti + Sunday/Sparkle + Robin + Huohuo (for Energy).",
+        "f2p": "Argenti + Tingyun + Asta + healer.",
+        "budget": "Argenti + Asta + any buffer + sustain."
+      },
+      "playstyle": "Build Energy for 180-cost Ultimate. Can choose between 90-cost or 180-cost Ultimate — always use 180. Skill deals AoE Physical DMG. Ultimate at max energy deals massive AoE hits. Needs Energy supports like Huohuo, Tingyun, or Sunday.",
+      "important_traces": "Ultimate is where all damage lives. Energy traces critical. CRIT scaling traces priority."
+    }
+  },
+  {
+    "id": "arlan",
+    "title": "Arlan — Lightning Destruction DPS (4-star)",
+    "content": {
+      "overview": "4-star Lightning Destruction DPS. Sacrifices HP to deal damage. Budget option for early game but falls off significantly in endgame. His Skill doesn't cost SP (costs HP instead), making him SP-positive.",
+      "light_cones": {
+        "best": "A Secret Vow — DMG vs higher HP enemies.",
+        "f2p": "Mutual Demise — CRIT Rate at low HP. Collapsing Sky — ATK + Basic/Skill DMG.",
+        "3_alt2": "Honed Courage — ATK increase.",
+        "4_alt3": "Honed Courage (alternative option)."
+      },
+      "stats_needed": "ATK%, CRIT Rate, CRIT DMG. HP% secondary for survivability. SPD. Lightning DMG bonus.",
+      "relics": {
+        "cavern": "4pc Band of Sizzling Thunder — Lightning DMG + ATK. Or 4pc Longevous Disciple for HP + CRIT.",
+        "planar": "Space Sealing Station or Inert Salsotto.",
+        "main_stats": "Body: CRIT. Feet: SPD or ATK%. Sphere: Lightning DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK% > SPD"
+      },
+      "teams": {
+        "f2p": "Arlan + Asta + Pela + Natasha.",
+        "budget": "Early game team, replace as you get 5-star DPS."
+      },
+      "playstyle": "Skill costs HP not SP, so he's SP-positive. Deal more DMG at lower HP. Needs a healer who doesn't overheal to keep him at low HP for bonus DMG.",
+      "important_traces": "Talent increases DMG at lower HP. Skill HP cost mechanic."
+    }
+  },
+  {
+    "id": "ashveil",
+    "title": "Ashveil — Lightning Nihility DPS",
+    "content": {
+      "overview": "5-star Lightning Nihility DPS who brings Vulnerability, DEF shred, and taunt utility. Works both as a main DPS and sub-DPS. Strong in single-target and spread-out attack patterns. Top tier in current meta (T0.5).",
+      "light_cones": {
+        "best": "His signature or Along the Passing Shore.",
+        "f2p": "Good Night and Sleep Well — DMG per debuff.",
+        "3_alt2": "Incessant Rain — Vulnerability debuff.",
+        "4_alt3": "Incessant Rain (alternative option)."
+      },
+      "stats_needed": "CRIT Rate and CRIT DMG. ATK%. Effect Hit Rate for debuff landing. SPD.",
+      "relics": {
+        "cavern": "4pc Pioneer Diver of Dead Waters — CRIT vs debuffed. Or Prisoner in Deep Confinement.",
+        "planar": "Izumo Gensei or Firmament Frontline Glamoth.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Lightning DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "Mortenax Blade + Ashveil + Tribbie + Hyacine.",
+        "acheron": "Acheron + Ashveil + Nihility support + sustain.",
+        "f2p": "Ashveil + debuffers + sustain.",
+        "budget": "Ashveil + Pela + buffer + sustain."
+      },
+      "playstyle": "Applies Vulnerability and DEF shred while dealing significant personal damage. Taunt utility helps protect squishier teammates. Spread attack pattern effective against multiple targets.",
+      "important_traces": "Vulnerability and DEF shred application. CRIT scaling. Taunt mechanics."
+    }
+  },
+  {
+    "id": "asta",
+    "title": "Asta — Fire Harmony Support (4-star)",
+    "content": {
+      "overview": "4-star Fire Harmony support providing ATK% buff and SPD increase to all allies. Free character obtainable early. Excellent budget buffer for any team, especially early-to-mid game.",
+      "light_cones": {
+        "best": "Meshing Cogs — Energy Regen.",
+        "f2p": "Memories of the Past — Energy + Break Effect. Dance! Dance! Dance! — action advance.",
+        "3_alt2": "Carve the Moon Weave the Clouds.",
+        "4_alt3": "Carve the Moon Weave the Clouds. (alternative option)."
+      },
+      "stats_needed": "SPD for more frequent turns. Energy Regen for Ultimate uptime. HP% for survivability. Fire DMG not needed — she's pure support.",
+      "relics": {
+        "cavern": "4pc Messenger Traversing Hackerspace — SPD + team SPD buff.",
+        "planar": "Penacony Land of Dreams — Energy Regen. Fleet of the Ageless — team ATK.",
+        "main_stats": "Body: HP%. Feet: SPD. Sphere: HP%. Rope: Energy Regen.",
+        "sub_stats": "SPD > HP% > Effect RES > DEF%"
+      },
+      "teams": {
+        "any": "Asta works in any team as a budget ATK + SPD buffer. Replace with Robin/Sparkle/Sunday when available.",
+        "f2p": "Any DPS + Asta + debuffer + healer.",
+        "budget": "Any DPS + Asta + debuffer + healer."
+      },
+      "playstyle": "Use Skill to deal Fire DMG and gain Charging stacks. Each stack increases party ATK%. Ultimate increases all allies' SPD. Very simple and effective. Gradually gets replaced by premium supports in endgame.",
+      "important_traces": "Talent (Charging stacks for party ATK%). Ultimate SPD buff. Simple and effective."
+    }
+  },
+  {
+    "id": "aventurine",
+    "title": "Aventurine — Imaginary Preservation Sustain",
+    "content": {
+      "overview": "5-star Imaginary Preservation sustain with shields, follow-up attacks scaling on DEF, and team CRIT Rate buff. Premium sustain for follow-up teams.",
+      "light_cones": {
+        "best": "Inherently Unjust Destiny (signature) — DEF, CRIT DMG, enemy Vulnerability.",
+        "f2p": "Trend of Universal Market — Burn on hit. Concert for Two — DEF + shield.",
+        "3_alt2": "Day One of My New Life — DEF + team RES.",
+        "4_alt3": "Day One of My New Life (alternative option)."
+      },
+      "stats_needed": "DEF 4000+. CRIT Rate/DMG secondary for damage. SPD. Effect RES 30%+ for Broken Keel.",
+      "relics": {
+        "cavern": "4pc Knight of Purity Palace — DEF + shield strength.",
+        "planar": "Broken Keel — Effect RES + team CRIT DMG.",
+        "main_stats": "Body: DEF%. Feet: SPD/DEF%. Sphere: DEF%. Rope: DEF%/ERR.",
+        "sub_stats": "DEF% > SPD > CRIT Rate > Effect RES"
+      },
+      "teams": {
+        "premium": "Feixiao + Robin + Topaz + Aventurine.",
+        "general": "Any team needing sustain. Plug-and-play.",
+        "f2p": "Universal sustain option.",
+        "budget": "Universal sustain option."
+      },
+      "playstyle": "Blind Bet stacks accumulate from ally attacks/Ultimates. At 7 stacks, auto follow-up + shields. Skill shields all allies. Ultimate gives team CRIT Rate. Very automated.",
+      "important_traces": "Talent (Blind Bet follow-up) — automated shields + DMG. Ultimate team CRIT Rate."
+    }
+  },
+  {
+    "id": "bailu",
+    "title": "Bailu — Lightning Abundance Sustain",
+    "content": {
+      "overview": "5-star Lightning Abundance healer. Provides strong single-target and team healing, plus a revive mechanic. Early game staple but overshadowed by newer sustains like Huohuo and Gallagher.",
+      "light_cones": {
+        "best": "Time Waits for No One — healing + bonus DMG.",
+        "f2p": "Post-Op Conversation — Energy Regen. Quid Pro Quo — ally Energy.",
+        "3_alt2": "Hey Over Here — healing output.",
+        "4_alt3": "Hey Over Here (alternative option)."
+      },
+      "stats_needed": "HP% for healing. SPD. Energy Regen. Outgoing Healing Bonus.",
+      "relics": {
+        "cavern": "4pc Longevous Disciple or 2pc HP sets.",
+        "planar": "Fleet of Ageless — team ATK. Broken Keel — team CRIT DMG.",
+        "main_stats": "Body: Outgoing Healing/HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "HP% > SPD > Effect RES"
+      },
+      "teams": {
+        "general": "Any team as healer. Outclassed by Huohuo/Gallagher for most content.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill heals single target + bounces. Talent revives one ally per battle. Ultimate heals all allies + applies Invigoration (heals on hit). Simple healer.",
+      "important_traces": "Talent revive is unique utility. Invigoration for sustained healing."
+    }
+  },
+  {
+    "id": "black-swan",
+    "title": "Black Swan — Wind Nihility Sub-DPS",
+    "content": {
+      "overview": "5-star Wind Nihility DoT sub-DPS. Applies Arcana stacks; at 7 stacks enemies enter Epiphany for massive Wind DoT. Key in DoT teams and Acheron teams.",
+      "light_cones": {
+        "best": "Reforged Remembrance (signature) — ATK + Vulnerability.",
+        "f2p": "Eyes of the Prey — EHR. Good Night and Sleep Well — DMG per debuff.",
+        "3_alt2": "Incessant Rain.",
+        "4_alt3": "Incessant Rain. (alternative option)."
+      },
+      "stats_needed": "ATK% for DoT. EHR 80%+. SPD. Wind DMG. Do NOT build CRIT — DoT can't crit.",
+      "relics": {
+        "cavern": "4pc Prisoner in Deep Confinement — ATK + DEF ignore per DoT.",
+        "planar": "Pan-Cosmic Commercial or Firmament Glamoth.",
+        "main_stats": "Body: ATK%/EHR. Feet: SPD. Sphere: Wind DMG. Rope: ATK%.",
+        "sub_stats": "ATK% > EHR > SPD > ATK"
+      },
+      "teams": {
+        "premium": "Kafka + Black Swan + Guinaifen + sustain (DoT).",
+        "acheron": "Acheron + Black Swan + Jiaoqiu + sustain.",
+        "f2p": "Kafka + Black Swan + Sampo + sustain.",
+        "budget": "Kafka + Black Swan + Sampo + sustain."
+      },
+      "playstyle": "Stack Arcana on enemies. At 7 stacks = Epiphany (massive Wind DoT/turn). In Acheron teams, generates stacks via debuffs.",
+      "important_traces": "Talent (auto Arcana). Ultimate advances Arcana count. EHR traces."
+    }
+  },
+  {
+    "id": "blade",
+    "title": "Blade — Wind Destruction DPS",
+    "content": {
+      "overview": "5-star Wind Destruction HP-scaling DPS. Consumes HP to deal damage, triggers follow-up attacks after HP changes 5 times. Auto-pilot playstyle.",
+      "light_cones": {
+        "best": "The Unreachable Side (signature) — HP + DMG based on HP consumed.",
+        "f2p": "A Secret Vow — DMG vs higher HP enemies.",
+        "3_alt2": "Mutual Demise — CRIT at low HP.",
+        "4_alt3": "Mutual Demise (alternative option)."
+      },
+      "stats_needed": "HP% primary damage stat. CRIT Rate/DMG. Wind DMG. SPD secondary. Do NOT prioritize ATK.",
+      "relics": {
+        "cavern": "4pc Longevous Disciple — HP + CRIT Rate on HP change.",
+        "planar": "Inert Salsotto or Rutilant Arena.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Wind DMG/HP%. Rope: HP%.",
+        "sub_stats": "CRIT > HP% > SPD"
+      },
+      "teams": {
+        "premium": "Blade + Bronya/Sunday + Robin + Luocha.",
+        "synergy": "Castorice + Blade for HP drain synergy.",
+        "f2p": "Blade + Asta + Natasha + support.",
+        "budget": "Blade + Asta + Natasha + support."
+      },
+      "playstyle": "Skill consumes HP for enhanced state. Enhanced Basic scales on HP + ATK. Talent: follow-up at 5 HP changes. Ultimate deals massive AoE consuming HP.",
+      "important_traces": "Talent follow-up is primary DMG. HP scaling. A4 self-heal on follow-up."
+    }
+  },
+  {
+    "id": "boothill",
+    "title": "Boothill — Physical Hunt Break DPS",
+    "content": {
+      "overview": "5-star Physical Hunt Break DPS. Single-target Physical Break specialist with Standoff and pocket pistol mechanics. Implants Physical Weakness.",
+      "light_cones": {
+        "best": "Sailing Towards a Second Life (signature).",
+        "f2p": "On the Fall of an Aeon.",
+        "3_alt2": "Indelible Promise.",
+        "4_alt3": "Indelible Promise. (alternative option)."
+      },
+      "stats_needed": "Break Effect 250%+. SPD. ATK%. Do NOT build CRIT — Break-based damage.",
+      "relics": {
+        "cavern": "4pc Iron Cavalry Against the Scourge.",
+        "planar": "Talia Kingdom of Banditry.",
+        "main_stats": "Body: ATK%/EHR. Feet: SPD. Sphere: ATK%. Rope: Break Effect%.",
+        "sub_stats": "Break Effect > SPD > ATK%"
+      },
+      "teams": {
+        "premium": "Boothill + Fugue + Ruan Mei + sustain.",
+        "f2p": "Boothill + Harmony MC + Ruan Mei + sustain.",
+        "budget": "Boothill + Harmony MC + Ruan Mei + sustain."
+      },
+      "playstyle": "Skill enters Standoff implanting Physical Weakness. Enhanced Basic deals high Toughness DMG. Excels at single-target bosses.",
+      "important_traces": "Standoff/pocket pistol mechanics. Break Effect scaling."
+    }
+  },
+  {
+    "id": "bronya",
+    "title": "Bronya — Wind Harmony Support",
+    "content": {
+      "overview": "5-star Wind Harmony hypercarry enabler. 100% action advance + CRIT DMG + DMG buff to chosen ally. Standard banner. Speed tuning is critical.",
+      "light_cones": {
+        "best": "But the Battle Isn't Over (Herta Store) — ERR + SP gen.",
+        "f2p": "Dance! Dance! Dance! — team action advance.",
+        "3_alt2": "Memories of the Past.",
+        "4_alt3": "Memories of the Past. (alternative option)."
+      },
+      "stats_needed": "SPD critical (speed tune before DPS). CRIT DMG for buff. Energy Regen.",
+      "relics": {
+        "cavern": "4pc Messenger Traversing Hackerspace.",
+        "planar": "Broken Keel or Penacony.",
+        "main_stats": "Body: CRIT DMG/HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "SPD > CRIT DMG > HP%"
+      },
+      "teams": {
+        "general": "Any hypercarry DPS + Bronya + buffer + sustain.",
+        "classic": "DHIL + Bronya + Robin + sustain.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill gives ally 100% action advance + CRIT DMG + DMG buff. Speed tune to act right before DPS. Ultimate buffs all allies ATK + CRIT DMG.",
+      "important_traces": "Skill action advance. CRIT DMG buff. Speed tuning is #1 priority."
+    }
+  },
+  {
+    "id": "cerydra",
+    "title": "Cerydra — Wind Harmony Support",
+    "content": {
+      "overview": "5-star Wind Harmony support specializing in Skill duplication. Can duplicate allies' Skills without consuming SP, enabling massive burst windows. Key partner for Anaxa.",
+      "light_cones": {
+        "best": "Her signature LC.",
+        "f2p": "But the Battle Isn't Over or Harmony support LCs.",
+        "3_alt2": "Dance! Dance! Dance!.",
+        "4_alt3": "Dance! Dance! Dance!. (alternative option)."
+      },
+      "stats_needed": "SPD, Energy Regen, HP% for survivability. Support stats — her value is in Skill duplication.",
+      "relics": {
+        "cavern": "4pc Messenger Traversing Hackerspace.",
+        "planar": "Penacony or Broken Keel.",
+        "main_stats": "Body: HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "SPD > HP% > Effect RES"
+      },
+      "teams": {
+        "premium": "Anaxa + Cyrene + Cerydra + Permansor Terrae.",
+        "general": "Any Skill-reliant DPS benefits from Cerydra's duplication.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Duplicates allied Skills without SP cost, enabling 4+ Skill casts in burst windows. Key enabler for Anaxa's QD chains.",
+      "important_traces": "Skill duplication mechanic is her core value."
+    }
+  },
+  {
+    "id": "cipher",
+    "title": "Cipher — Quantum Nihility Support",
+    "content": {
+      "overview": "5-star Quantum Nihility support. Permanently increases DMG Taken by all enemies by 40%. Records portion of ally DMG for True DMG burst. Strong Acheron partner.",
+      "light_cones": {
+        "best": "Her signature or Holiday Thermae LC.",
+        "f2p": "Resolution Shines As Pearls of Sweat. Lies Dance on the Breeze.",
+        "3_alt2": "Any debuff-applying Nihility LC.",
+        "4_alt3": "Any debuff-applying Nihility LC. (alternative option)."
+      },
+      "stats_needed": "SPD, Effect Hit Rate, HP%, Energy Regen. Support-focused stats.",
+      "relics": {
+        "cavern": "4pc Prisoner in Deep Confinement or Pan-Cosmic.",
+        "planar": "Penacony or Pan-Cosmic.",
+        "main_stats": "Body: EHR/HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "SPD > EHR > HP%"
+      },
+      "teams": {
+        "premium": "Acheron + Jiaoqiu + Cipher + Aventurine.",
+        "general": "Any team benefiting from DMG Taken debuff.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Permanently debuffs all enemies with 40% increased DMG Taken. Follow-up ATK applies additional debuffs. Records ally DMG for True DMG release.",
+      "important_traces": "DMG Taken debuff. True DMG recording. Follow-up debuff application."
+    }
+  },
+  {
+    "id": "clara",
+    "title": "Clara — Physical Destruction DPS",
+    "content": {
+      "overview": "5-star Physical Destruction counter-based DPS. Svarog (her guardian robot) counters when Clara is attacked, dealing Physical DMG. Benefits from being targeted. Standard banner.",
+      "light_cones": {
+        "best": "Something Irreplaceable (standard) — ATK + healing.",
+        "f2p": "On the Fall of an Aeon — ATK stacking.",
+        "3_alt2": "A Secret Vow.",
+        "4_alt3": "A Secret Vow. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG. ATK%. Physical DMG. SPD less important (she relies on counters).",
+      "relics": {
+        "cavern": "4pc Champion of Streetwise Boxing — Physical DMG + ATK.",
+        "planar": "Inert Salsotto or Rutilant Arena.",
+        "main_stats": "Body: CRIT. Feet: ATK%/SPD. Sphere: Physical DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK%"
+      },
+      "teams": {
+        "premium": "Clara + Robin + Topaz + sustain.",
+        "f2p": "Clara + Asta + Tingyun + sustain.",
+        "budget": "Clara + Asta + Tingyun + sustain."
+      },
+      "playstyle": "Clara draws aggro; when attacked, Svarog counters with enhanced attacks. Ultimate enhances counters and increases aggro. She wants to be hit.",
+      "important_traces": "Counter enhancement. Aggro management. Physical DMG scaling."
+    }
+  },
+  {
+    "id": "cyrene",
+    "title": "Cyrene — Ice Remembrance Support",
+    "content": {
+      "overview": "5-star Ice Remembrance support. Amplifies Remembrance buffs, provides action advance and CRIT DMG. Key partner for Castorice and Anaxa teams. Currently rerunning in v4.3.",
+      "light_cones": {
+        "best": "This Love Forever (signature) — 180+ SPD without relic SPD.",
+        "f2p": "Remembrance support LCs.",
+        "3_alt2": "High base stat LCs.",
+        "4_alt3": "High base stat LCs. (alternative option)."
+      },
+      "stats_needed": "SPD, CRIT DMG for buff scaling, Energy Regen, HP%.",
+      "relics": {
+        "cavern": "4pc Messenger or support sets.",
+        "planar": "Penacony or Broken Keel.",
+        "main_stats": "Body: CRIT DMG/HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "SPD > CRIT DMG > HP%"
+      },
+      "teams": {
+        "premium": "Castorice + Evernight + Cyrene + Hyacine.",
+        "anaxa": "Anaxa + Cyrene + Cerydra + Permansor Terrae.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Provides action advance and CRIT DMG to Remembrance allies. Grants additional Skill instances. Amplifies the entire Remembrance archetype.",
+      "important_traces": "Remembrance buff amplification. Action advance. CRIT DMG buffing."
+    }
+  },
+  {
+    "id": "dan-heng",
+    "title": "Dan Heng — Wind Hunt DPS (4-star)",
+    "content": {
+      "overview": "4-star Wind Hunt single-target DPS. Free starter character. Solid early-game DPS with Wind DMG and SPD-based buffs. Outclassed by 5-star options later.",
+      "light_cones": {
+        "best": "Swordplay — stacking DMG.",
+        "f2p": "Arrows — CRIT Rate. Darting Arrow — ATK after defeating.",
+        "3_alt2": "Only Silence Remains.",
+        "4_alt3": "Only Silence Remains. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Wind DMG, SPD.",
+      "relics": {
+        "cavern": "4pc Eagle of Twilight Line or 4pc Musketeer.",
+        "planar": "Rutilant Arena or Space Sealing Station.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Wind DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK% > SPD"
+      },
+      "teams": {
+        "f2p": "Dan Heng + Asta + Pela + healer.",
+        "budget": "Dan Heng + Asta + Pela + healer."
+      },
+      "playstyle": "Single-target Wind DPS. Skill deals bonus DMG to Slowed enemies. Ultimate deals high single-target DMG. Simple and effective early game.",
+      "important_traces": "Skill DMG bonus vs Slowed. Ultimate burst."
+    }
+  },
+  {
+    "id": "dan-heng-imbibitor-lunae",
+    "title": "Dan Heng Imbibitor Lunae — Imaginary Destruction DPS",
+    "content": {
+      "overview": "5-star Imaginary Destruction DPS. Enhances Basic ATK by consuming SP (up to 3 SP for max). Extremely SP-hungry — needs Sparkle or SP-positive supports.",
+      "light_cones": {
+        "best": "Brighter Than the Sun (signature) — ATK + Energy on enhanced Basic.",
+        "f2p": "On the Fall of an Aeon — ATK stacking.",
+        "3_alt2": "A Secret Vow.",
+        "4_alt3": "A Secret Vow. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG primary. ATK%. Imaginary DMG. SPD less important. Needs SP support desperately.",
+      "relics": {
+        "cavern": "4pc Wastelander of Banditry Desert — Imaginary DMG + CRIT vs debuffed.",
+        "planar": "Rutilant Arena — Basic ATK/Skill DMG bonus.",
+        "main_stats": "Body: CRIT. Feet: SPD/ATK%. Sphere: Imaginary DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK%"
+      },
+      "teams": {
+        "premium": "DHIL + Sparkle + Robin/Sunday + sustain.",
+        "classic": "DHIL + Bronya + buffer + sustain.",
+        "f2p": "DHIL + Asta + Pela + sustain (tight SP).",
+        "budget": "DHIL + Asta + Pela + sustain (tight SP)."
+      },
+      "playstyle": "Enhance Basic ATK 3x (Fulgurant Leap) for 3 SP. Massive blast Imaginary DMG. Plan SP economy around his turns. Sparkle recovers SP.",
+      "important_traces": "Enhanced Basic ATK (3-stack). A4 stacking DMG. SP management is #1 concern."
+    }
+  },
+  {
+    "id": "dan-heng-permansor-terrae",
+    "title": "Dan Heng • Permansor Terrae — Physical Preservation Sustain",
+    "content": {
+      "overview": "5-star Physical Preservation sustain. Premium sustain with summon-based mechanics. Strong in Remembrance and Erudition teams due to high base SPD summon and AoE utility.",
+      "light_cones": {
+        "best": "His signature LC.",
+        "f2p": "Preservation support LCs.",
+        "3_alt2": "Day One of My New Life.",
+        "4_alt3": "Day One of My New Life. (alternative option)."
+      },
+      "stats_needed": "DEF/HP for survivability. SPD. Energy Regen.",
+      "relics": {
+        "cavern": "4pc Knight of Purity Palace.",
+        "planar": "Broken Keel.",
+        "main_stats": "Body: DEF%/HP%. Feet: SPD. Sphere: DEF%. Rope: ERR.",
+        "sub_stats": "DEF% > SPD > HP% > Effect RES"
+      },
+      "teams": {
+        "premium": "Anaxa + Cyrene + Cerydra + Permansor Terrae.",
+        "remembrance": "Castorice teams as premium sustain.",
+        "general": "Teams benefiting from summon with high SPD and AoE attacks.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Summon-based sustain with high base SPD summon providing AoE attacks and team protection.",
+      "important_traces": "Summon mechanics. Team protection. AoE contribution."
+    }
+  },
+  {
+    "id": "dr-ratio",
+    "title": "Dr. Ratio — Imaginary Hunt DPS (Free)",
+    "content": {
+      "overview": "5-star Imaginary Hunt follow-up DPS. Given free during v1.6-2.1. Follow-up triggers when attacking enemies with 3+ debuffs.",
+      "light_cones": {
+        "best": "Baptism of Pure Thought (signature).",
+        "f2p": "Cruising in the Stellar Sea. Swordplay.",
+        "3_alt2": "Worrisome Blissful.",
+        "4_alt3": "Worrisome Blissful. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Imaginary DMG. Needs debuffed enemies for follow-ups.",
+      "relics": {
+        "cavern": "4pc Pioneer Diver of Dead Waters.",
+        "planar": "Duran Dynasty or Inert Salsotto.",
+        "main_stats": "Body: CRIT. Feet: SPD/ATK%. Sphere: Imaginary DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK%"
+      },
+      "teams": {
+        "premium": "Dr. Ratio + Topaz + Robin + Aventurine.",
+        "f2p": "Dr. Ratio + Pela + Asta + Natasha.",
+        "budget": "Dr. Ratio + Pela + Asta + Natasha."
+      },
+      "playstyle": "Skill for Imaginary DMG. Talent follow-up at 3+ debuffs on target. Maintain debuffs is critical.",
+      "important_traces": "Talent follow-up. A4 DMG per debuff count."
+    }
+  },
+  {
+    "id": "evanescia",
+    "title": "Evanescia — Physical Elation DPS",
+    "content": {
+      "overview": "5-star Physical Elation DPS from v4.2. Layers Physical + Elation DMG through Certified Banger/Punchline stacks. Master Fox follow-up at 240 Energy accumulation. Top tier (T0).",
+      "light_cones": {
+        "best": "Until the Flowers Bloom Again (signature) — CRIT DMG + Energy Regen.",
+        "f2p": "Tomorrow Together or Mushy Shroomy's Adventures.",
+        "3_alt2": "On the Fall of an Aeon.",
+        "4_alt3": "On the Fall of an Aeon. (alternative option)."
+      },
+      "stats_needed": "CRIT DMG primary (Talent converts to Elation). Energy Regen for high Ultimate cost. ATK%. SPD.",
+      "relics": {
+        "cavern": "4pc Ever-Glorious Magical Girl — CRIT DMG + Elation DEF Ignore.",
+        "planar": "Elation-focused ornaments.",
+        "main_stats": "Body: CRIT DMG. Feet: SPD. Sphere: Physical DMG/ATK%. Rope: ERR.",
+        "sub_stats": "CRIT DMG > ATK% > SPD > Energy Regen"
+      },
+      "teams": {
+        "premium": "Evanescia + Yao Guang + Elation MC + Huohuo.",
+        "f2p": "Evanescia + Elation MC + buffer + sustain.",
+        "budget": "Evanescia + Elation MC + buffer + sustain."
+      },
+      "playstyle": "Gain Certified Banger stacks alongside Energy. Skill/Ultimate deal Physical + Elation DMG based on stacks. Master Fox follow-up at 240 Energy accumulation deals AoE + Vulnerability.",
+      "important_traces": "Talent: Elation = 20% of CRIT DMG. Certified Banger/Energy dual loop. A2/A4 for Elation synergy."
+    }
+  },
+  {
+    "id": "evernight",
+    "title": "March 7th • Evernight — Ice Remembrance Support",
+    "content": {
+      "overview": "5-star Ice Remembrance support (March 7th variant). Provides 100+ CRIT DMG to memosprites, 30% Vulnerability, and continuous Newbud generation. Premium Castorice partner. T0 tier.",
+      "light_cones": {
+        "best": "Her signature LC.",
+        "f2p": "Remembrance support LCs.",
+        "3_alt2": "High base HP/ATK LCs.",
+        "4_alt3": "High base HP/ATK LCs. (alternative option)."
+      },
+      "stats_needed": "CRIT DMG for buff inheritance. SPD. Energy Regen. HP%.",
+      "relics": {
+        "cavern": "4pc Poet of Mourning Collapse or support sets.",
+        "planar": "Bone Collection or Penacony.",
+        "main_stats": "Body: CRIT DMG. Feet: SPD. Sphere: varies. Rope: ERR.",
+        "sub_stats": "CRIT DMG > SPD > HP%"
+      },
+      "teams": {
+        "premium": "Castorice + Evernight + Cyrene + Hyacine.",
+        "alt": "Castorice + Evernight + Tribbie + Hyacine.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Provides massive CRIT DMG to memosprites (100+). Applies 30% Vulnerability to enemies. Generates Newbud for Castorice. Deals significant personal DMG with Evernight's own memosprite.",
+      "important_traces": "CRIT DMG inheritance to memosprites. Vulnerability. Newbud generation."
+    }
+  },
+  {
+    "id": "feixiao",
+    "title": "Feixiao — Wind Hunt DPS",
+    "content": {
+      "overview": "5-star Wind Hunt follow-up DPS. Accumulates Flying Aureus from ally attacks. Max stacks = powerful multi-hit Ultimate ignoring DEF.",
+      "light_cones": {
+        "best": "I Venture Forth to Hunt (signature).",
+        "f2p": "Cruising in Stellar Sea. Swordplay.",
+        "3_alt2": "Worrisome Blissful.",
+        "4_alt3": "Worrisome Blissful. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate 70%+, CRIT DMG max. ATK%. Wind DMG. SPD less important.",
+      "relics": {
+        "cavern": "4pc The Wind-Soaring Valorous — follow-up/Ultimate DMG.",
+        "planar": "Duran Dynasty of Running Wolves — follow-up stacking.",
+        "main_stats": "Body: CRIT. Feet: ATK%/SPD. Sphere: Wind DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK%"
+      },
+      "teams": {
+        "premium": "Feixiao + Robin + Topaz + Aventurine.",
+        "alt": "Feixiao + Robin + March Hunt + Aventurine.",
+        "f2p": "Feixiao + Robin + March Hunt + sustain.",
+        "budget": "Feixiao + Robin + March Hunt + sustain."
+      },
+      "playstyle": "Allies attacking = Flying Aureus stacks. Max stacks = multi-hit Ultimate with DEF ignore. Topaz/Numby attacking constantly = fast stacks.",
+      "important_traces": "Ultimate highest priority. Talent (Flying Aureus). CRIT buffs."
+    }
+  },
+  {
+    "id": "fugue",
+    "title": "Fugue (Tingyun • Fugue) — Fire Nihility Support",
+    "content": {
+      "overview": "5-star Fire Nihility premier Break enabler. Foxian Prayer grants Exo-Toughness doubling Break triggers. Best Super Break support, replacing Harmony MC.",
+      "light_cones": {
+        "best": "Long Road Leads Home (signature).",
+        "f2p": "Resolution Shines As Pearls of Sweat.",
+        "3_alt2": "Nihility debuff LCs.",
+        "4_alt3": "Nihility debuff LCs. (alternative option)."
+      },
+      "stats_needed": "Break Effect, SPD, Energy Regen, Effect Hit Rate.",
+      "relics": {
+        "cavern": "4pc Iron Cavalry or 4pc Thief of Shooting Meteor.",
+        "planar": "Talia Kingdom or Penacony.",
+        "main_stats": "Body: EHR/HP%. Feet: SPD. Sphere: HP%. Rope: BE%/ERR.",
+        "sub_stats": "Break Effect > SPD > EHR"
+      },
+      "teams": {
+        "premium": "Firefly + Fugue + The Dahlia + Ruan Mei.",
+        "general": "Any Break DPS + Fugue + buffer + sustain.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Apply Foxian Prayer to DPS for Exo-Toughness (doubles Break triggers). Buff team Break Effect. Premium Harmony MC replacement.",
+      "important_traces": "Foxian Prayer (Exo-Toughness) is defining mechanic."
+    }
+  },
+  {
+    "id": "fu-xuan",
+    "title": "Fu Xuan — Quantum Preservation Sustain",
+    "content": {
+      "overview": "5-star Quantum Preservation sustain. Matrix of Prescience redirects damage, increases team HP, provides CRIT Rate. SP-efficient (Skill lasts 3 turns).",
+      "light_cones": {
+        "best": "She Already Shut Her Eyes (signature).",
+        "f2p": "Day One of My New Life. Texture of Memories.",
+        "3_alt2": "Landau's Choice.",
+        "4_alt3": "Landau's Choice. (alternative option)."
+      },
+      "stats_needed": "HP 6000+. Effect RES. SPD. DEF secondary.",
+      "relics": {
+        "cavern": "4pc Knight of Purity Palace.",
+        "planar": "Broken Keel — Effect RES + team CRIT DMG.",
+        "main_stats": "Body: HP%. Feet: SPD/HP%. Sphere: HP%. Rope: HP%/ERR.",
+        "sub_stats": "HP% > SPD > DEF% > Effect RES"
+      },
+      "teams": {
+        "general": "Universal plug-and-play sustain.",
+        "popular": "Acheron + Nihility + Fu Xuan.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill (Matrix) redirects damage + team HP/CRIT Rate for 3 turns. Basic attack other turns for SP. Ultimate self-heals + AoE DMG.",
+      "important_traces": "Skill (Matrix) is core. Talent passive healing. A4 team CRIT Rate."
+    }
+  },
+  {
+    "id": "gallagher",
+    "title": "Gallagher — Fire Abundance Sustain (4-star)",
+    "content": {
+      "overview": "4-star Fire Abundance F2P sustain king. SP-positive, Besotted debuff (+25% Break DMG taken), strong Toughness contribution. Go-to for Break teams.",
+      "light_cones": {
+        "best": "Multiplication — Break Effect.",
+        "f2p": "Post-Op Conversation — ERR. Quid Pro Quo.",
+        "3_alt2": "What Is Real? — Break + healing.",
+        "4_alt3": "What Is Real? (alternative option)."
+      },
+      "stats_needed": "Break Effect, SPD, HP%, Energy Regen.",
+      "relics": {
+        "cavern": "4pc Messenger Traversing Hackerspace.",
+        "planar": "Penacony or Broken Keel.",
+        "main_stats": "Body: OHB/HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "SPD > BE > HP% > Effect RES"
+      },
+      "teams": {
+        "break": "Firefly + Fugue + Dahlia + Gallagher.",
+        "acheron": "Acheron teams (Besotted = debuff for stacks).",
+        "f2p": "Any team needing F2P sustain.",
+        "budget": "Any team needing F2P sustain."
+      },
+      "playstyle": "Basic attack for SP (SP-positive). Skill heals single ally. Ultimate applies Besotted (+25% Break DMG taken) and enhances next basic to heal team. E6 = massive SP efficiency.",
+      "important_traces": "Ultimate Besotted debuff critical. Talent heals on attacking Besotted. E6 major power spike."
+    }
+  },
+  {
+    "id": "gepard",
+    "title": "Gepard — Ice Preservation Sustain",
+    "content": {
+      "overview": "5-star Ice Preservation shielder. Provides team-wide shields via Ultimate plus a self-revive Talent. Standard banner. Reliable but less popular than Aventurine/Fu Xuan.",
+      "light_cones": {
+        "best": "Moment of Victory (signature) — DEF + aggro + EHR.",
+        "f2p": "Day One of My New Life. Landau's Choice.",
+        "3_alt2": "Concert for Two.",
+        "4_alt3": "Concert for Two. (alternative option)."
+      },
+      "stats_needed": "DEF for shield strength. HP%. SPD. Effect RES. Energy Regen for Ultimate uptime.",
+      "relics": {
+        "cavern": "4pc Knight of Purity Palace.",
+        "planar": "Broken Keel. Belobog of Architects.",
+        "main_stats": "Body: DEF%. Feet: SPD. Sphere: DEF%. Rope: ERR.",
+        "sub_stats": "DEF% > SPD > Effect RES > HP%"
+      },
+      "teams": {
+        "general": "Any team needing shields. Simple shielder.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Ultimate provides team-wide shields scaling on DEF. Talent revives once per battle. Basic attack/Skill deal Ice DMG. Simple and reliable.",
+      "important_traces": "Ultimate shield strength. Talent self-revive. DEF scaling."
+    }
+  },
+  {
+    "id": "gilgamesh",
+    "title": "Gilgamesh — Fire Destruction DPS (Free, v4.4)",
+    "content": {
+      "overview": "Free Fire Destruction DPS from the Fate/Stay Night collaboration in v4.4. Available through event rewards.",
+      "light_cones": {
+        "best": "Destruction path LCs.",
+        "f2p": "On the Fall of an Aeon or free event LC.",
+        "3_alt2": "A Secret Vow.",
+        "4_alt3": "A Secret Vow. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Fire DMG. Standard DPS stats.",
+      "relics": {
+        "cavern": "4pc Firesmith of Lava-Forging or Champion of Streetwise Boxing.",
+        "planar": "Space Sealing Station or Inert Salsotto.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Fire DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK% > SPD"
+      },
+      "teams": {
+        "f2p": "Free collab character. Build standard DPS teams.",
+        "budget": "Free collab character. Build standard DPS teams."
+      },
+      "playstyle": "Free Fate collab Destruction DPS. Details to be confirmed when v4.4 launches.",
+      "important_traces": "Standard Destruction DPS trace priority."
+    }
+  },
+  {
+    "id": "guinaifen",
+    "title": "Guinaifen — Fire Nihility Sub-DPS (4-star)",
+    "content": {
+      "overview": "4-star Fire Nihility support/sub-DPS. Applies Firekiss (Vulnerability debuff) and Burn DoT. Excellent budget option for Acheron stack generation and DoT teams.",
+      "light_cones": {
+        "best": "Eyes of the Prey — EHR.",
+        "f2p": "Fermata — Break + DMG vs Burned. Good Night and Sleep Well.",
+        "3_alt2": "Resolution Shines.",
+        "4_alt3": "Resolution Shines. (alternative option)."
+      },
+      "stats_needed": "ATK%, EHR, SPD. Fire DMG. Break Effect secondary.",
+      "relics": {
+        "cavern": "4pc Prisoner in Deep Confinement.",
+        "planar": "Pan-Cosmic Commercial or Space Sealing Station.",
+        "main_stats": "Body: ATK%/EHR. Feet: SPD. Sphere: Fire DMG. Rope: ATK%.",
+        "sub_stats": "ATK% > EHR > SPD"
+      },
+      "teams": {
+        "acheron": "Acheron + Pela + Guinaifen + sustain.",
+        "dot": "Kafka + Black Swan + Guinaifen + sustain.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill applies Burn + Firekiss (Vulnerability). In DoT teams, Kafka detonates her Burns. In Acheron teams, debuffs generate stacks.",
+      "important_traces": "Firekiss Vulnerability debuff. Burn application. EHR traces."
+    }
+  },
+  {
+    "id": "hanya",
+    "title": "Hanya — Physical Harmony Support (4-star)",
+    "content": {
+      "overview": "4-star Physical Harmony support providing SPD buff and ATK buff via Burden marks. SP-positive. Budget alternative to premium Harmony supports.",
+      "light_cones": {
+        "best": "Dance! Dance! Dance!.",
+        "f2p": "Meshing Cogs — ERR.",
+        "3_alt2": "Carve the Moon Weave the Clouds.",
+        "4_alt3": "Carve the Moon Weave the Clouds. (alternative option)."
+      },
+      "stats_needed": "SPD, Energy Regen, HP%.",
+      "relics": {
+        "cavern": "4pc Messenger Traversing Hackerspace.",
+        "planar": "Penacony. Broken Keel.",
+        "main_stats": "Body: HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "SPD > HP% > Effect RES"
+      },
+      "teams": {
+        "f2p": "Budget Harmony support for any team.",
+        "budget": "Budget Harmony support for any team."
+      },
+      "playstyle": "Marks enemy with Burden; allies attacking marked enemy recover SP and gain ATK buff. Ultimate buffs one ally's ATK and SPD. SP-positive support.",
+      "important_traces": "Burden SP recovery. Ultimate ATK/SPD buff."
+    }
+  },
+  {
+    "id": "herta",
+    "title": "Herta — Ice Erudition DPS (4-star)",
+    "content": {
+      "overview": "4-star Ice Erudition AoE DPS. Follow-up attacks trigger when any enemy drops below 50% HP. Strong in Pure Fiction's multi-wave content. Free from Herta Space Station.",
+      "light_cones": {
+        "best": "Today Is Another Peaceful Day.",
+        "f2p": "Night on the Milky Way. The Seriousness of Breakfast.",
+        "3_alt2": "Before Dawn.",
+        "4_alt3": "Before Dawn. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Ice DMG.",
+      "relics": {
+        "cavern": "4pc Hunter of Glacial Forest — Ice DMG + CRIT after Ultimate.",
+        "planar": "Inert Salsotto or Space Sealing Station.",
+        "main_stats": "Body: CRIT. Feet: SPD/ATK%. Sphere: Ice DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK% > SPD"
+      },
+      "teams": {
+        "f2p": "Herta + Asta + Pela + healer. Good for Pure Fiction.",
+        "budget": "Herta + Asta + Pela + healer. Good for Pure Fiction."
+      },
+      "playstyle": "Follow-up triggers when enemies drop below 50% HP. Strong in multi-enemy content. Ultimate deals AoE Ice DMG. Budget Pure Fiction option.",
+      "important_traces": "Follow-up trigger mechanic. AoE damage."
+    }
+  },
+  {
+    "id": "himeko",
+    "title": "Himeko — Fire Erudition DPS",
+    "content": {
+      "overview": "5-star Fire Erudition AoE DPS. Follow-up attacks after accumulating Charge via ally weakness breaks. Standard banner starter character.",
+      "light_cones": {
+        "best": "Night on the Milky Way (standard) — ATK per enemy.",
+        "f2p": "Before Dawn. Today Is Another Peaceful Day.",
+        "3_alt2": "The Seriousness of Breakfast.",
+        "4_alt3": "The Seriousness of Breakfast. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Fire DMG, SPD.",
+      "relics": {
+        "cavern": "4pc Firesmith of Lava-Forging — Fire DMG.",
+        "planar": "Space Sealing Station or Firmament Glamoth.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Fire DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK% > SPD"
+      },
+      "teams": {
+        "f2p": "Himeko + Asta + Pela + healer.",
+        "budget": "Himeko + Asta + Pela + healer."
+      },
+      "playstyle": "Skill hits all enemies. Talent: follow-up after Charge reaches max from weakness breaks. Ultimate AoE Fire DMG. Decent but outclassed by newer options.",
+      "important_traces": "Follow-up charge mechanic. Fire DMG traces."
+    }
+  },
+  {
+    "id": "himeko-nova",
+    "title": "Himeko • Nova — Fire Erudition DPS (v4.4)",
+    "content": {
+      "overview": "5-star Fire Erudition DPS variant of Himeko from the Fate/Stay Night collaboration in v4.4.",
+      "light_cones": {
+        "best": "Her signature or Erudition DPS LCs.",
+        "f2p": "Night on the Milky Way.",
+        "3_alt2": "Today Is Another Peaceful Day.",
+        "4_alt3": "Today Is Another Peaceful Day. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Fire DMG. Standard Erudition DPS stats.",
+      "relics": {
+        "cavern": "Erudition damage sets.",
+        "planar": "Inert Salsotto or Space Sealing Station.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Fire DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK% > SPD"
+      },
+      "teams": {
+        "general": "Fate collab Erudition DPS. Details confirmed at v4.4 launch.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Fate collab variant of Himeko. Fire Erudition DPS with updated kit.",
+      "important_traces": "To be confirmed at release."
+    }
+  },
+  {
+    "id": "hook",
+    "title": "Hook — Fire Destruction DPS (4-star)",
+    "content": {
+      "overview": "4-star Fire Destruction DPS. Early game Fire DPS with self-buff mechanics. Outclassed by endgame options.",
+      "light_cones": {
+        "best": "On the Fall of an Aeon.",
+        "f2p": "Collapsing Sky. A Secret Vow.",
+        "3_alt2": "Honed Courage.",
+        "4_alt3": "Honed Courage. (alternative option)."
+      },
+      "stats_needed": "ATK%, CRIT, Fire DMG.",
+      "relics": {
+        "cavern": "4pc Firesmith of Lava-Forging.",
+        "planar": "Space Sealing Station.",
+        "main_stats": "Body: CRIT. Feet: SPD/ATK%. Sphere: Fire DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK%"
+      },
+      "teams": {
+        "f2p": "Hook + Asta + support + healer.",
+        "budget": "Hook + Asta + support + healer."
+      },
+      "playstyle": "Skill enhanced after Ultimate. Simple Fire DPS for early game.",
+      "important_traces": "Enhanced Skill after Ultimate."
+    }
+  },
+  {
+    "id": "huohuo",
+    "title": "Huohuo — Wind Abundance Sustain",
+    "content": {
+      "overview": "5-star Wind Abundance healer providing team Energy regeneration and ATK buff via Ultimate. Excellent for energy-hungry DPS.",
+      "light_cones": {
+        "best": "Night of Fright (signature).",
+        "f2p": "Post-Op Conversation. Quid Pro Quo.",
+        "3_alt2": "Time Waits for No One.",
+        "4_alt3": "Time Waits for No One. (alternative option)."
+      },
+      "stats_needed": "HP%, SPD, Energy Regen, Effect RES.",
+      "relics": {
+        "cavern": "4pc Longevous Disciple.",
+        "planar": "Broken Keel or Fleet of Ageless.",
+        "main_stats": "Body: HP%/OHB. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "HP% > SPD > Effect RES"
+      },
+      "teams": {
+        "general": "Any non-Break team. Great with energy-hungry DPS like Argenti, Evanescia.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill heals lowest HP ally. Talent heals passively. Ultimate regens team Energy + ATK buff for 2 turns + cleanse. Excellent team utility.",
+      "important_traces": "Ultimate Energy regen + ATK buff. Talent passive healing. Cleanse."
+    }
+  },
+  {
+    "id": "hysilens",
+    "title": "Hysilens — Physical Nihility DoT DPS",
+    "content": {
+      "overview": "5-star Physical Nihility DoT DPS. Deploys Zone reducing enemy ATK/DEF and triggering Physical DoT per enemy DoT tick. Best DoT support. Needs Kafka. T0.5 tier.",
+      "light_cones": {
+        "best": "Her signature LC.",
+        "f2p": "Eyes of the Prey. Good Night and Sleep Well.",
+        "3_alt2": "Resolution Shines.",
+        "4_alt3": "Resolution Shines. (alternative option)."
+      },
+      "stats_needed": "ATK 3600+, EHR 120%+, SPD 135+. A4: 15% DMG per 10% EHR above 60% (max 90%).",
+      "relics": {
+        "cavern": "4pc Prisoner in Deep Confinement.",
+        "planar": "Revelry by the Sea (3600 ATK threshold).",
+        "main_stats": "Body: ATK%/EHR. Feet: SPD. Sphere: Physical DMG. Rope: ATK%.",
+        "sub_stats": "ATK% > EHR > SPD"
+      },
+      "teams": {
+        "premium": "Hysilens + Kafka + Black Swan + sustain.",
+        "f2p": "Hysilens + Kafka + Sampo + sustain.",
+        "budget": "Hysilens + Kafka + Sampo + sustain."
+      },
+      "playstyle": "Deploy Zone reducing ATK/DEF. Talent applies Wind Shear/Bleed/Burn/Shock. Physical DoT triggers per enemy DoT tick in Zone. Ultimate detonates all existing DoTs for 150% DMG.",
+      "important_traces": "Zone deployment. Talent DoT application. A4 EHR-to-DMG conversion. Ultimate DoT detonation."
+    }
+  },
+  {
+    "id": "jade",
+    "title": "Jade — Quantum Erudition Sub-DPS",
+    "content": {
+      "overview": "5-star Quantum Erudition sub-DPS. Marks an ally to generate stacks when they attack. Deals AoE Quantum follow-up DMG at max stacks. Good with fast-attacking allies.",
+      "light_cones": {
+        "best": "Yet Hope Is Priceless (signature).",
+        "f2p": "Night on the Milky Way.",
+        "3_alt2": "Before Dawn.",
+        "4_alt3": "Before Dawn. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Quantum DMG, SPD.",
+      "relics": {
+        "cavern": "4pc The Ashblazing Grand Duke.",
+        "planar": "Duran Dynasty or Inert Salsotto.",
+        "main_stats": "Body: CRIT. Feet: SPD/ATK%. Sphere: Quantum DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK%"
+      },
+      "teams": {
+        "premium": "Blade + Jade + Robin + sustain.",
+        "general": "Fast-attacking DPS + Jade.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Mark an ally; their attacks build Jade's stacks. At max stacks, Jade follow-up attacks deal AoE Quantum DMG. Debt Collector marks provide ATK/CRIT DMG buffs.",
+      "important_traces": "Follow-up stack mechanic. Debt Collector ATK/CRIT buff."
+    }
+  },
+  {
+    "id": "jiaoqiu",
+    "title": "Jiaoqiu — Fire Nihility Support",
+    "content": {
+      "overview": "5-star Fire Nihility support. Acheron's best partner. 50% Ultimate Vulnerability debuff. Generates Slashed Dream stacks on enemy actions.",
+      "light_cones": {
+        "best": "Those Many Springs (signature).",
+        "f2p": "Resolution Shines. Eyes of the Prey.",
+        "3_alt2": "Incessant Rain.",
+        "4_alt3": "Incessant Rain. (alternative option)."
+      },
+      "stats_needed": "EHR 80%+, SPD, HP%, Energy Regen.",
+      "relics": {
+        "cavern": "4pc Prisoner in Deep Confinement or Pan-Cosmic.",
+        "planar": "Pan-Cosmic Commercial Enterprise.",
+        "main_stats": "Body: EHR. Feet: SPD. Sphere: HP%. Rope: ERR/ATK%.",
+        "sub_stats": "EHR > SPD > HP%"
+      },
+      "teams": {
+        "premium": "Acheron + Jiaoqiu + Cipher + Aventurine.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Apply debuffs. Talent generates stacks for Acheron on enemy actions. Ultimate = 50% Vulnerability on Ultimate DMG. Engine for Acheron.",
+      "important_traces": "Ultimate Vulnerability. Talent stack generation. EHR traces."
+    }
+  },
+  {
+    "id": "jing-yuan",
+    "title": "Jing Yuan — Lightning Erudition DPS",
+    "content": {
+      "overview": "5-star Lightning Erudition AoE DPS. Summons Lightning Lord for AoE DMG based on accumulated hits. Excels in Pure Fiction.",
+      "light_cones": {
+        "best": "Before Dawn (signature).",
+        "f2p": "Today Is Another Peaceful Day.",
+        "3_alt2": "Night on the Milky Way.",
+        "4_alt3": "Night on the Milky Way. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, SPD, Lightning DMG.",
+      "relics": {
+        "cavern": "4pc Band of Sizzling Thunder.",
+        "planar": "Inert Salsotto or Firmament Glamoth.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Lightning DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "Jing Yuan + Sunday + Robin + Huohuo.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill AoE Lightning + stack Lightning Lord (max 10). LL attacks at fixed turn order. Ultimate AoE + more LL stacks. Needs action advance supports.",
+      "important_traces": "Talent (Lightning Lord). Skill/Ultimate LL stacking."
+    }
+  },
+  {
+    "id": "jingliu",
+    "title": "Jingliu — Ice Destruction DPS",
+    "content": {
+      "overview": "5-star Ice Destruction DPS. Enters Spectral Transmigration state consuming allies' HP for enhanced attacks with massive Ice DMG. Strong hypercarry.",
+      "light_cones": {
+        "best": "I Shall Be My Own Sword (signature).",
+        "f2p": "On the Fall of an Aeon.",
+        "3_alt2": "A Secret Vow.",
+        "4_alt3": "A Secret Vow. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG (gets CRIT Rate from A2 in enhanced state). ATK%. Ice DMG. SPD.",
+      "relics": {
+        "cavern": "4pc Hunter of Glacial Forest — Ice DMG + CRIT after Ult.",
+        "planar": "Rutilant Arena or Space Sealing Station.",
+        "main_stats": "Body: CRIT DMG (she gets CR from traces). Feet: SPD. Sphere: Ice DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "Jingliu + Bronya/Sunday + Robin + sustain.",
+        "f2p": "Jingliu + Asta + Pela + healer.",
+        "budget": "Jingliu + Asta + Pela + healer."
+      },
+      "playstyle": "Build Syzygy stacks from attacks. At 2 stacks, enter Spectral Transmigration consuming ally HP. Enhanced Skill deals massive Ice blast DMG without costing SP. Very SP-positive in enhanced state.",
+      "important_traces": "A2 provides CRIT Rate in enhanced state. Syzygy stacking. SP-free enhanced Skill."
+    }
+  },
+  {
+    "id": "kafka",
+    "title": "Kafka — Lightning Nihility DoT DPS",
+    "content": {
+      "overview": "5-star Lightning Nihility DoT core. Skill/follow-up immediately detonates ALL DoTs on target, multiplying team DoT damage.",
+      "light_cones": {
+        "best": "Patience Is All You Need (signature).",
+        "f2p": "Good Night and Sleep Well. Eyes of the Prey.",
+        "3_alt2": "Fermata.",
+        "4_alt3": "Fermata. (alternative option)."
+      },
+      "stats_needed": "ATK%, SPD, EHR. Do NOT build CRIT — DoT can't crit.",
+      "relics": {
+        "cavern": "4pc Prisoner in Deep Confinement.",
+        "planar": "Firmament Glamoth or Space Sealing Station.",
+        "main_stats": "Body: ATK%. Feet: SPD. Sphere: Lightning DMG. Rope: ATK%.",
+        "sub_stats": "ATK% > SPD > EHR"
+      },
+      "teams": {
+        "premium": "Kafka + Black Swan + Guinaifen/Hysilens + sustain.",
+        "f2p": "Kafka + Sampo + Guinaifen + sustain.",
+        "budget": "Kafka + Sampo + Guinaifen + sustain."
+      },
+      "playstyle": "Skill/follow-up detonate ALL DoTs on target instantly. Stack DoT sources then detonate. Shock (Lightning DoT) on attacks.",
+      "important_traces": "Skill DoT detonation. Talent follow-up. EHR traces."
+    }
+  },
+  {
+    "id": "lingsha",
+    "title": "Lingsha — Fire Abundance Sustain",
+    "content": {
+      "overview": "5-star Fire Abundance premium Break sustain. +25% Break DMG Taken debuff. Fuyuan follow-up deals AoE Toughness DMG + heals. Stronger than Gallagher but costs SP.",
+      "light_cones": {
+        "best": "Hey Over Here (signature).",
+        "f2p": "Multiplication. Post-Op Conversation.",
+        "3_alt2": "What Is Real?.",
+        "4_alt3": "What Is Real?. (alternative option)."
+      },
+      "stats_needed": "Break Effect, SPD, HP%, ATK%.",
+      "relics": {
+        "cavern": "4pc Thief of Shooting Meteor.",
+        "planar": "Broken Keel or Penacony.",
+        "main_stats": "Body: OHB/ATK%. Feet: SPD. Sphere: ATK%/HP%. Rope: ERR.",
+        "sub_stats": "BE > SPD > ATK%"
+      },
+      "teams": {
+        "premium": "Firefly + Fugue + Lingsha + Ruan Mei.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill heals + deploys Fuyuan. Fuyuan follow-up = AoE Fire Toughness DMG + heal. Ultimate = +25% Break DMG Taken + reset Fuyuan. SP-negative.",
+      "important_traces": "Ultimate Break DMG Taken debuff. Fuyuan follow-up."
+    }
+  },
+  {
+    "id": "luka",
+    "title": "Luka — Physical Nihility Sub-DPS (4-star)",
+    "content": {
+      "overview": "4-star Physical Nihility sub-DPS applying Bleed DoT. Budget option for DoT/Break teams.",
+      "light_cones": {
+        "best": "Eyes of the Prey.",
+        "f2p": "Fermata. Resolution Shines.",
+        "3_alt2": "Good Night and Sleep Well.",
+        "4_alt3": "Good Night and Sleep Well. (alternative option)."
+      },
+      "stats_needed": "ATK%, EHR, SPD, Break Effect.",
+      "relics": {
+        "cavern": "4pc Prisoner in Deep Confinement.",
+        "planar": "Space Sealing Station.",
+        "main_stats": "Body: ATK%/EHR. Feet: SPD. Sphere: Physical DMG. Rope: ATK%.",
+        "sub_stats": "ATK% > EHR > SPD"
+      },
+      "teams": {
+        "dot": "Budget DoT team member.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Apply Bleed via Skill. Enhanced Basic from Talent stacks. Budget Physical Nihility option.",
+      "important_traces": "Bleed application. Enhanced Basic mechanics."
+    }
+  },
+  {
+    "id": "luocha",
+    "title": "Luocha — Imaginary Abundance Sustain",
+    "content": {
+      "overview": "5-star Imaginary Abundance healer with automatic healing via Abyss Flower. When allies drop below 50% HP, auto heals without using turns. Ultimate removes enemy buffs.",
+      "light_cones": {
+        "best": "Echoes of the Coffin (signature).",
+        "f2p": "Post-Op Conversation. Quid Pro Quo.",
+        "3_alt2": "Night of Fright.",
+        "4_alt3": "Night of Fright. (alternative option)."
+      },
+      "stats_needed": "ATK% (heals scale on ATK). SPD. Energy Regen. OHB.",
+      "relics": {
+        "cavern": "4pc Musketeer of Wild Wheat — ATK/SPD.",
+        "planar": "Space Sealing Station or Fleet of Ageless.",
+        "main_stats": "Body: OHB/ATK%. Feet: SPD. Sphere: ATK%. Rope: ERR.",
+        "sub_stats": "ATK% > SPD > HP%"
+      },
+      "teams": {
+        "general": "Any team. Automatic healing is very convenient.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Abyss Flower auto heals when allies below 50% HP. Skill heals single target. Ultimate deals Imaginary AoE + removes enemy buffs. Heals scale on ATK not HP.",
+      "important_traces": "Abyss Flower auto-healing. Ultimate dispel. ATK scaling heals."
+    }
+  },
+  {
+    "id": "lynx",
+    "title": "Lynx — Quantum Abundance Sustain (4-star)",
+    "content": {
+      "overview": "4-star Quantum Abundance healer. Cleanses and heals. Increases Max HP of target. Budget healer especially for HP-scaling DPS like Blade.",
+      "light_cones": {
+        "best": "Post-Op Conversation.",
+        "f2p": "Quid Pro Quo.",
+        "3_alt2": "Shared Feeling.",
+        "4_alt3": "Shared Feeling. (alternative option)."
+      },
+      "stats_needed": "HP% for healing. SPD. Energy Regen.",
+      "relics": {
+        "cavern": "4pc Longevous Disciple.",
+        "planar": "Broken Keel or Fleet of Ageless.",
+        "main_stats": "Body: OHB/HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "HP% > SPD > Effect RES"
+      },
+      "teams": {
+        "budget": "Budget healer for any team. Good with Blade (HP buff)."
+      },
+      "playstyle": "Skill heals + increases Max HP + cleanses. Ultimate heals all + cleanses. Good budget option.",
+      "important_traces": "Max HP increase (great for Blade). Cleanse."
+    }
+  },
+  {
+    "id": "march-7th-preservation",
+    "title": "March 7th (Preservation) — Ice Preservation (4-star)",
+    "content": {
+      "overview": "4-star Ice Preservation shielder. Free starter. Shields one ally and counters when shielded ally is attacked. Basic but functional.",
+      "light_cones": {
+        "best": "Day One of My New Life.",
+        "f2p": "Landau's Choice. Defense.",
+        "3_alt2": "We Are Wildfire.",
+        "4_alt3": "We Are Wildfire. (alternative option)."
+      },
+      "stats_needed": "DEF%, HP%, SPD, Effect RES.",
+      "relics": {
+        "cavern": "4pc Knight of Purity Palace.",
+        "planar": "Broken Keel.",
+        "main_stats": "Body: DEF%/HP%. Feet: SPD. Sphere: DEF%. Rope: ERR.",
+        "sub_stats": "DEF% > SPD > Effect RES"
+      },
+      "teams": {
+        "early": "Free starter sustain. Replace with 5-star sustain later.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill shields one ally. When shielded ally attacked, March counters with Ice DMG and has chance to freeze.",
+      "important_traces": "Shield + counter mechanics."
+    }
+  },
+  {
+    "id": "march-7th-hunt",
+    "title": "March 7th (The Hunt) — Imaginary Hunt Sub-DPS (4-star)",
+    "content": {
+      "overview": "4-star Imaginary Hunt sub-DPS. Marks an ally as Master; when Master attacks, March follow-up attacks. Excellent free partner for Feixiao.",
+      "light_cones": {
+        "best": "Swordplay — stacking DMG.",
+        "f2p": "Subscribe for More.",
+        "3_alt2": "Only Silence Remains.",
+        "4_alt3": "Only Silence Remains. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, SPD.",
+      "relics": {
+        "cavern": "4pc Musketeer or Wind-Soaring Valorous.",
+        "planar": "Duran Dynasty or Rutilant Arena.",
+        "main_stats": "Body: CRIT. Feet: SPD/ATK%. Sphere: Imaginary DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK%"
+      },
+      "teams": {
+        "premium": "Feixiao + Robin + March Hunt + Aventurine.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Select Master. When Master attacks, March follow-up attacks dealing Imaginary DMG + CRIT DMG buff. Generates Flying Aureus for Feixiao. Free and effective.",
+      "important_traces": "Follow-up on Master attack. CRIT DMG buff to Master."
+    }
+  },
+  {
+    "id": "misha",
+    "title": "Misha — Ice Destruction DPS (4-star)",
+    "content": {
+      "overview": "4-star Ice Destruction DPS. Ultimate hit count increases with Energy consumed. Budget Ice DPS with freeze utility.",
+      "light_cones": {
+        "best": "On the Fall of an Aeon.",
+        "f2p": "A Secret Vow.",
+        "3_alt2": "Collapsing Sky.",
+        "4_alt3": "Collapsing Sky. (alternative option)."
+      },
+      "stats_needed": "CRIT, ATK%, Ice DMG, Energy Regen.",
+      "relics": {
+        "cavern": "4pc Hunter of Glacial Forest.",
+        "planar": "Inert Salsotto.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Ice DMG. Rope: ERR/ATK%.",
+        "sub_stats": "CRIT > ATK%"
+      },
+      "teams": {
+        "f2p": "Budget Ice DPS.",
+        "budget": "Budget Ice DPS."
+      },
+      "playstyle": "Ultimate hits more times based on Energy consumed. Freeze on attacks. Budget but fun.",
+      "important_traces": "Ultimate scaling with Energy."
+    }
+  },
+  {
+    "id": "mortenax-blade",
+    "title": "Mortenax Blade — Physical Remembrance DPS (v4.3)",
+    "content": {
+      "overview": "5-star Physical Remembrance DPS releasing in v4.3. Part of the strongest Ashveil team composition. T0.5 tier in current meta.",
+      "light_cones": {
+        "best": "His signature LC.",
+        "f2p": "Remembrance DPS LCs.",
+        "3_alt2": "High base stat LCs.",
+        "4_alt3": "High base stat LCs. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Physical DMG, HP%.",
+      "relics": {
+        "cavern": "Remembrance/Physical DPS sets.",
+        "planar": "Bone Collection or CRIT-focused sets.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Physical DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "Mortenax Blade + Ashveil + Tribbie + Hyacine.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Physical Remembrance DPS with frequent attacks. Partners with Ashveil for Vulnerability and DEF shred synergy.",
+      "important_traces": "Details at v4.3 release."
+    }
+  },
+  {
+    "id": "moze",
+    "title": "Moze — Lightning Hunt Sub-DPS (4-star)",
+    "content": {
+      "overview": "4-star Lightning Hunt sub-DPS. Marks enemy and deals follow-up Lightning DMG when allies attack the marked target. Budget Topaz alternative.",
+      "light_cones": {
+        "best": "Swordplay.",
+        "f2p": "Subscribe for More. Only Silence Remains.",
+        "3_alt2": "Arrows.",
+        "4_alt3": "Arrows. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Lightning DMG.",
+      "relics": {
+        "cavern": "4pc The Ashblazing Grand Duke or Band of Sizzling Thunder.",
+        "planar": "Duran Dynasty or Inert Salsotto.",
+        "main_stats": "Body: CRIT. Feet: ATK%/SPD. Sphere: Lightning DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK%"
+      },
+      "teams": {
+        "follow_up": "Follow-up teams as budget Topaz alternative.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Mark enemy with Prey. Follow-up when allies attack Prey target. Enter Departed state (untargetable) while follow-up attacking.",
+      "important_traces": "Prey marking. Follow-up mechanics."
+    }
+  },
+  {
+    "id": "natasha",
+    "title": "Natasha — Physical Abundance Sustain (4-star)",
+    "content": {
+      "overview": "4-star Physical Abundance healer. Free from story progression. Reliable early game healer. Outclassed by newer options.",
+      "light_cones": {
+        "best": "Post-Op Conversation.",
+        "f2p": "Quid Pro Quo. Shared Feeling.",
+        "3_alt2": "Fine Fruit.",
+        "4_alt3": "Fine Fruit. (alternative option)."
+      },
+      "stats_needed": "HP%, SPD, Energy Regen, OHB.",
+      "relics": {
+        "cavern": "4pc Longevous Disciple.",
+        "planar": "Fleet of Ageless or Broken Keel.",
+        "main_stats": "Body: OHB/HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "HP% > SPD"
+      },
+      "teams": {
+        "f2p": "Free early game healer.",
+        "budget": "Free early game healer."
+      },
+      "playstyle": "Skill heals single target with HoT. Ultimate heals all allies. Simple and reliable but gets replaced.",
+      "important_traces": "Basic healer traces."
+    }
+  },
+  {
+    "id": "pela",
+    "title": "Pela — Ice Nihility Support (4-star)",
+    "content": {
+      "overview": "4-star Ice Nihility. Best accessible DEF shredder. Ultimate strips buffs + 40% DEF shred AoE. SP-positive. Everyone should build Pela.",
+      "light_cones": {
+        "best": "Resolution Shines As Pearls of Sweat.",
+        "f2p": "Eyes of the Prey.",
+        "3_alt2": "Fermata.",
+        "4_alt3": "Fermata. (alternative option)."
+      },
+      "stats_needed": "EHR 67%+, SPD, Energy Regen, HP%.",
+      "relics": {
+        "cavern": "4pc Eagle of Twilight or Messenger.",
+        "planar": "Penacony or Broken Keel.",
+        "main_stats": "Body: EHR. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "EHR > SPD > HP%"
+      },
+      "teams": {
+        "acheron": "Acheron + Pela + Nihility + sustain.",
+        "universal": "40% DEF shred benefits ANY team.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Basic most turns (SP-positive). Skill strips 1 buff + Ice RES down. Ultimate strips ALL buffs + 40% DEF shred AoE. Best value 4-star support.",
+      "important_traces": "Ultimate DEF shred. E4 extends duration."
+    }
+  },
+  {
+    "id": "phainon",
+    "title": "Phainon — Fire Remembrance DPS",
+    "content": {
+      "overview": "5-star Fire Remembrance DPS. Powerful AoE Fire DPS with memosprite mechanics. Rerunning in v4.3. T0.5 tier.",
+      "light_cones": {
+        "best": "His signature LC.",
+        "f2p": "Remembrance DPS LCs.",
+        "3_alt2": "High base stat LCs.",
+        "4_alt3": "High base stat LCs. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Fire DMG, HP%.",
+      "relics": {
+        "cavern": "4pc Poet of Mourning Collapse or Fire DMG sets.",
+        "planar": "Bone Collection or Inert Salsotto.",
+        "main_stats": "Body: CRIT. Feet: SPD/HP%. Sphere: Fire DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK% > HP%"
+      },
+      "teams": {
+        "premium": "Phainon + Sunday + Robin + sustain.",
+        "remembrance": "Phainon + Remembrance MC + buffer + sustain.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Fire Remembrance DPS with memosprite. Strong AoE damage. E2 is biggest Eidolon spike.",
+      "important_traces": "Memosprite DMG scaling. Fire DMG traces."
+    }
+  },
+  {
+    "id": "qingque",
+    "title": "Qingque — Quantum Erudition DPS (4-star)",
+    "content": {
+      "overview": "4-star Quantum Erudition DPS with mahjong tile mechanics. RNG-based — draws tiles for damage buffs. Fun but inconsistent.",
+      "light_cones": {
+        "best": "Today Is Another Peaceful Day.",
+        "f2p": "Night on the Milky Way.",
+        "3_alt2": "The Seriousness of Breakfast.",
+        "4_alt3": "The Seriousness of Breakfast. (alternative option)."
+      },
+      "stats_needed": "CRIT, ATK%, Quantum DMG. ATK% Feet (she has free action advance).",
+      "relics": {
+        "cavern": "4pc Genius of Brilliant Stars.",
+        "planar": "Rutilant Arena or Space Sealing Station.",
+        "main_stats": "Body: CRIT. Feet: ATK%. Sphere: Quantum DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK%"
+      },
+      "teams": {
+        "f2p": "Budget Quantum DPS.",
+        "budget": "Budget Quantum DPS."
+      },
+      "playstyle": "Talent auto-draws tiles. Hidden Hand at 4 matching tiles = massive Enhanced Basic. RNG-dependent but strong when it works.",
+      "important_traces": "Hidden Hand enhanced Basic. Tile draw mechanics."
+    }
+  },
+  {
+    "id": "rin-tohsaka",
+    "title": "Rin Tohsaka — Fire Nihility Support (v4.4)",
+    "content": {
+      "overview": "5-star Fire Nihility support from the Fate/Stay Night collaboration in v4.4. Uses Gem Energy mechanics.",
+      "light_cones": {
+        "best": "Flickering Stars (signature).",
+        "f2p": "Nihility support LCs.",
+        "3_alt2": "Eyes of the Prey.",
+        "4_alt3": "Eyes of the Prey. (alternative option)."
+      },
+      "stats_needed": "EHR, SPD, ATK%, Energy Regen.",
+      "relics": {
+        "cavern": "Nihility support sets.",
+        "planar": "Pan-Cosmic or Penacony.",
+        "main_stats": "Body: EHR. Feet: SPD. Sphere: varies. Rope: ERR.",
+        "sub_stats": "EHR > SPD > ATK%"
+      },
+      "teams": {
+        "general": "Fate collab Nihility support. Details at v4.4 launch.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Gem Energy mechanics. Fate collab Nihility support with Archer synergy.",
+      "important_traces": "To be confirmed at release."
+    }
+  },
+  {
+    "id": "robin",
+    "title": "Robin — Physical Harmony Support",
+    "content": {
+      "overview": "5-star Physical Harmony universal buffer. Concerto state buffs all allies' ATK/DMG + grants action advance on ally attacks. Top-tier support.",
+      "light_cones": {
+        "best": "Flowing Nightglow (signature).",
+        "f2p": "But the Battle Isn't Over (Herta Store).",
+        "3_alt2": "Carve the Moon.",
+        "4_alt3": "Carve the Moon. (alternative option)."
+      },
+      "stats_needed": "ATK (buffs scale on her ATK). Energy Regen. SPD.",
+      "relics": {
+        "cavern": "4pc Prisoner or ATK% sets.",
+        "planar": "Penacony or Fleet of Ageless.",
+        "main_stats": "Body: ATK%. Feet: SPD. Sphere: ATK%. Rope: ERR.",
+        "sub_stats": "ATK% > ATK flat > SPD"
+      },
+      "teams": {
+        "universal": "Works in virtually any team. Feixiao, Ratio, Aglaea, JY teams.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Build Energy. Ultimate = Concerto: buffs team ATK + DMG + action advance on ally attacks. Set-and-forget buffer.",
+      "important_traces": "Ultimate Concerto. A4 flat ATK to allies."
+    }
+  },
+  {
+    "id": "ruan-mei",
+    "title": "Ruan Mei — Ice Harmony Support",
+    "content": {
+      "overview": "5-star Ice Harmony universal support. Party DMG, Weakness Break Efficiency, SPD, All-Type RES PEN. Essential for Break teams, strong everywhere.",
+      "light_cones": {
+        "best": "Past Self in Mirror (signature).",
+        "f2p": "Memories of the Past. Meshing Cogs.",
+        "3_alt2": "But the Battle Isn't Over.",
+        "4_alt3": "But the Battle Isn't Over. (alternative option)."
+      },
+      "stats_needed": "Break Effect 180%+ (A4 converts to team DMG). SPD. Energy Regen.",
+      "relics": {
+        "cavern": "4pc Watchmaker Master of Dream Machinations.",
+        "planar": "Penacony or Sprightly Vonwacq.",
+        "main_stats": "Body: HP%/Effect RES. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "BE > SPD > HP%"
+      },
+      "teams": {
+        "break": "Firefly + Fugue + Dahlia + Ruan Mei.",
+        "universal": "Any team as universal buffer.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill buffs party DMG + Weakness Break Efficiency. Ultimate = All-Type RES PEN + Break DMG bonus. Talent = passive SPD increase. Set-and-forget.",
+      "important_traces": "A4: BE converts to team DMG. Ultimate RES PEN. Talent SPD."
+    }
+  },
+  {
+    "id": "sampo",
+    "title": "Sampo — Wind Nihility Sub-DPS (4-star)",
+    "content": {
+      "overview": "4-star Wind Nihility sub-DPS. Applies Wind Shear DoT. Budget option for DoT teams.",
+      "light_cones": {
+        "best": "Eyes of the Prey.",
+        "f2p": "Fermata.",
+        "3_alt2": "Good Night and Sleep Well.",
+        "4_alt3": "Good Night and Sleep Well. (alternative option)."
+      },
+      "stats_needed": "ATK%, EHR, SPD, Wind DMG.",
+      "relics": {
+        "cavern": "4pc Prisoner in Deep Confinement.",
+        "planar": "Space Sealing Station.",
+        "main_stats": "Body: ATK%/EHR. Feet: SPD. Sphere: Wind DMG. Rope: ATK%.",
+        "sub_stats": "ATK% > EHR > SPD"
+      },
+      "teams": {
+        "dot": "Kafka + Black Swan + Sampo + sustain.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Apply Wind Shear via Skill. Ultimate boosts Wind Shear DMG. Budget DoT team member.",
+      "important_traces": "Wind Shear application. Ultimate DoT amplification."
+    }
+  },
+  {
+    "id": "screwllum",
+    "title": "Screwllum — Quantum Erudition Support",
+    "content": {
+      "overview": "5-star Quantum Erudition support providing team Erudition synergies and Quantum DMG utility.",
+      "light_cones": {
+        "best": "His signature or Erudition support LCs.",
+        "f2p": "Erudition LCs.",
+        "3_alt2": "Today Is Another Peaceful Day.",
+        "4_alt3": "Today Is Another Peaceful Day. (alternative option)."
+      },
+      "stats_needed": "ATK%, CRIT, SPD, Energy Regen.",
+      "relics": {
+        "cavern": "Erudition support sets.",
+        "planar": "Penacony or Izumo Gensei.",
+        "main_stats": "Varies by role.",
+        "sub_stats": "Context-dependent"
+      },
+      "teams": {
+        "erudition": "Erudition team compositions.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Erudition support with Quantum utility.",
+      "important_traces": "Erudition team synergy traces."
+    }
+  },
+  {
+    "id": "seele",
+    "title": "Seele — Quantum Hunt DPS",
+    "content": {
+      "overview": "5-star Quantum Hunt DPS. Gets extra turns on defeating enemies. Strong single-target Quantum DPS with snowball potential. Launch 5-star.",
+      "light_cones": {
+        "best": "In the Night (signature) — CRIT DMG + follow-up at high SPD.",
+        "f2p": "Cruising in the Stellar Sea.",
+        "3_alt2": "Swordplay.",
+        "4_alt3": "Swordplay. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Quantum DMG, SPD (important for signature LC).",
+      "relics": {
+        "cavern": "4pc Genius of Brilliant Stars — DEF ignore vs Quantum weak.",
+        "planar": "Rutilant Arena or Inert Salsotto.",
+        "main_stats": "Body: CRIT DMG. Feet: SPD. Sphere: Quantum DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > SPD > ATK%"
+      },
+      "teams": {
+        "premium": "Seele + Sparkle/Sunday + Robin + sustain.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill for Quantum DMG. Defeat enemy = Resurgence (extra turn + DMG buff). Snowballs through waves. SPD important for LC synergy.",
+      "important_traces": "Resurgence extra turn on kill. SPD scaling with LC."
+    }
+  },
+  {
+    "id": "serval",
+    "title": "Serval — Lightning Erudition DPS (4-star)",
+    "content": {
+      "overview": "4-star Lightning Erudition AoE DPS. Free from pre-registration. Applies Shock DoT. Budget AoE option.",
+      "light_cones": {
+        "best": "Today Is Another Peaceful Day.",
+        "f2p": "Night on Milky Way.",
+        "3_alt2": "Before Dawn.",
+        "4_alt3": "Before Dawn. (alternative option)."
+      },
+      "stats_needed": "ATK%, CRIT, Lightning DMG, SPD.",
+      "relics": {
+        "cavern": "4pc Band of Sizzling Thunder.",
+        "planar": "Space Sealing Station.",
+        "main_stats": "Body: CRIT/ATK%. Feet: SPD. Sphere: Lightning DMG. Rope: ATK%.",
+        "sub_stats": "ATK% > CRIT > SPD"
+      },
+      "teams": {
+        "f2p": "Budget Lightning AoE.",
+        "budget": "Budget Lightning AoE."
+      },
+      "playstyle": "Skill AoE + Shock. Ultimate AoE + extends Shock duration. Budget but functional.",
+      "important_traces": "Shock extension. AoE DMG."
+    }
+  },
+  {
+    "id": "silver-wolf",
+    "title": "Silver Wolf — Quantum Nihility Support",
+    "content": {
+      "overview": "5-star Quantum Nihility Weakness implanter. Makes any enemy weak to your team's element. DEF/ATK/SPD reduction via Bug debuffs.",
+      "light_cones": {
+        "best": "Incessant Rain.",
+        "f2p": "Eyes of the Prey. Resolution Shines.",
+        "3_alt2": "Good Night and Sleep Well.",
+        "4_alt3": "Good Night and Sleep Well. (alternative option)."
+      },
+      "stats_needed": "EHR 80%+, SPD, Break Effect, HP%.",
+      "relics": {
+        "cavern": "4pc Genius of Brilliant Stars.",
+        "planar": "Pan-Cosmic Commercial.",
+        "main_stats": "Body: EHR. Feet: SPD. Sphere: Quantum/HP%. Rope: ERR/ATK%.",
+        "sub_stats": "EHR > SPD > BE"
+      },
+      "teams": {
+        "acheron": "Acheron + Silver Wolf + Jiaoqiu + sustain.",
+        "general": "Any team for Weakness implant.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill implants Weakness + Bug debuffs (DEF/ATK/SPD). Ultimate massive DEF shred. Makes any team work against any enemy.",
+      "important_traces": "Weakness implant. Bug debuffs. DEF shred."
+    }
+  },
+  {
+    "id": "sparkle",
+    "title": "Sparkle — Quantum Harmony Support",
+    "content": {
+      "overview": "5-star Quantum Harmony hypercarry enabler. CRIT DMG buff, action advance, SP recovery (4+ SP). Essential for DHIL.",
+      "light_cones": {
+        "best": "Earthly Escapade (signature).",
+        "f2p": "But the Battle Isn't Over.",
+        "3_alt2": "Dance! Dance! Dance!.",
+        "4_alt3": "Dance! Dance! Dance!. (alternative option)."
+      },
+      "stats_needed": "CRIT DMG, SPD, Energy Regen, HP%.",
+      "relics": {
+        "cavern": "4pc Messenger Traversing Hackerspace.",
+        "planar": "Penacony or Broken Keel.",
+        "main_stats": "Body: CRIT DMG/HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "CRIT DMG > SPD > HP%"
+      },
+      "teams": {
+        "classic": "DHIL + Sparkle + Robin + sustain.",
+        "general": "Any hypercarry + Sparkle.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill = CRIT DMG buff + 50% action advance to ally + SP recovery. Ultimate = team ATK%. Speed tune before DPS.",
+      "important_traces": "Skill CRIT DMG + action advance. SP recovery critical."
+    }
+  },
+  {
+    "id": "sparxie",
+    "title": "Sparxie — Lightning Elation Support",
+    "content": {
+      "overview": "5-star Lightning Elation support. Provides Elation team synergies and energy support. Part of the T0 Elation archetype alongside Evanescia and Silver Wolf LV.999.",
+      "light_cones": {
+        "best": "Her signature LC.",
+        "f2p": "Elation/Harmony support LCs.",
+        "3_alt2": "Energy Regen LCs.",
+        "4_alt3": "Energy Regen LCs. (alternative option)."
+      },
+      "stats_needed": "SPD, Energy Regen, ATK%, HP%.",
+      "relics": {
+        "cavern": "Support-focused sets.",
+        "planar": "Penacony or Elation sets.",
+        "main_stats": "Body: varies. Feet: SPD. Sphere: varies. Rope: ERR.",
+        "sub_stats": "SPD > ERR > HP%"
+      },
+      "teams": {
+        "elation": "Evanescia + Yao Guang + Sparxie + sustain.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Elation support providing team energy cycling and Elation synergies. Part of the T0 Elation core.",
+      "important_traces": "Elation synergy mechanics."
+    }
+  },
+  {
+    "id": "sunday",
+    "title": "Sunday — Imaginary Harmony Support",
+    "content": {
+      "overview": "5-star Imaginary Harmony hypercarry enabler. Action advance + CRIT DMG buff + SP gen. Premier single-target amplifier, especially for Aglaea.",
+      "light_cones": {
+        "best": "A Grounded Ascent (signature).",
+        "f2p": "Memories of the Past. But the Battle Isn't Over.",
+        "3_alt2": "Dance! Dance! Dance!.",
+        "4_alt3": "Dance! Dance! Dance!. (alternative option)."
+      },
+      "stats_needed": "SPD, Energy Regen, CRIT DMG, HP%.",
+      "relics": {
+        "cavern": "4pc Messenger Traversing Hackerspace.",
+        "planar": "Penacony or Lushaka.",
+        "main_stats": "Body: CRIT DMG/HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "SPD > ERR > CRIT DMG"
+      },
+      "teams": {
+        "premium": "Aglaea + Sunday + Robin + sustain. Jing Yuan + Sunday.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill = action advance + CRIT DMG buff to chosen ally. Ultimate enhances and recovers SP. Speed tune before DPS.",
+      "important_traces": "E1 DEF ignore. Action advance + CRIT DMG buffing."
+    }
+  },
+  {
+    "id": "sushang",
+    "title": "Sushang — Physical Hunt DPS (4-star)",
+    "content": {
+      "overview": "4-star Physical Hunt DPS with Weakness Break-focused kit. Gets action advance and enhanced Skill on breaking enemies.",
+      "light_cones": {
+        "best": "Swordplay.",
+        "f2p": "Arrows. Darting Arrow.",
+        "3_alt2": "Subscribe for More.",
+        "4_alt3": "Subscribe for More. (alternative option)."
+      },
+      "stats_needed": "CRIT, ATK%, Physical DMG, SPD, Break Effect.",
+      "relics": {
+        "cavern": "4pc Champion of Streetwise Boxing.",
+        "planar": "Rutilant Arena or Space Sealing Station.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Physical DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK% > SPD"
+      },
+      "teams": {
+        "f2p": "Budget Physical DPS.",
+        "budget": "Budget Physical DPS."
+      },
+      "playstyle": "Skill deals Physical DMG. On Weakness Break, Skill enhances and she gets action advance. Break-focused single target.",
+      "important_traces": "Enhanced Skill on Break. Action advance."
+    }
+  },
+  {
+    "id": "the-dahlia",
+    "title": "The Dahlia — Fire Nihility Support",
+    "content": {
+      "overview": "5-star Fire Nihility support. Near-mandatory for modern Firefly teams. Break Effect buffs, SPD manipulation, Toughness amplification.",
+      "light_cones": {
+        "best": "Her signature LC.",
+        "f2p": "Resolution Shines. Lies Dance on the Breeze.",
+        "3_alt2": "Nihility debuff LCs.",
+        "4_alt3": "Nihility debuff LCs. (alternative option)."
+      },
+      "stats_needed": "Break Effect, SPD, EHR, HP%.",
+      "relics": {
+        "cavern": "4pc Thief of Shooting Meteor or Watchmaker.",
+        "planar": "Talia Kingdom or Penacony.",
+        "main_stats": "Body: EHR/HP%. Feet: SPD. Sphere: HP%. Rope: BE%/ERR.",
+        "sub_stats": "SPD > BE > EHR"
+      },
+      "teams": {
+        "premium": "Firefly + Fugue + Dahlia + Ruan Mei.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Apply Break Effect buffs and debuffs to enable Break DPS. Near mandatory for modern Toughness bar values.",
+      "important_traces": "Break team enabling mechanics."
+    }
+  },
+  {
+    "id": "the-herta",
+    "title": "The Herta — Ice Erudition DPS",
+    "content": {
+      "overview": "5-star Ice Erudition AoE DPS. Top meta DPS especially paired with Anaxa (dual Erudition). Extremely strong in Pure Fiction. Needs another Erudition partner for best results.",
+      "light_cones": {
+        "best": "Her signature LC.",
+        "f2p": "Night on the Milky Way.",
+        "3_alt2": "Today Is Another Peaceful Day.",
+        "4_alt3": "Today Is Another Peaceful Day. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Ice DMG, Energy Regen.",
+      "relics": {
+        "cavern": "4pc Scholar Lost in Erudition or Hunter of Glacial Forest.",
+        "planar": "Izumo Gensei (with Erudition ally) or Inert Salsotto.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Ice DMG. Rope: ATK%/ERR.",
+        "sub_stats": "CRIT > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "The Herta + Anaxa + Tribbie + Permansor Terrae.",
+        "alt": "The Herta + Anaxa + Robin + sustain.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Powerful AoE Ice DPS. Message From Beyond the Veil buffs team when paired with Erudition ally. Anaxa's dual Erudition A4 + The Herta = top Pure Fiction team.",
+      "important_traces": "Message From Beyond the Veil Erudition synergy. AoE Ice burst."
+    }
+  },
+  {
+    "id": "tingyun",
+    "title": "Tingyun — Lightning Harmony Support (4-star)",
+    "content": {
+      "overview": "4-star Lightning Harmony buffer. ATK buff + bonus Lightning DMG to one ally. Ultimate regens Energy for one ally. Strong budget buffer, especially for energy-hungry DPS.",
+      "light_cones": {
+        "best": "Dance! Dance! Dance!.",
+        "f2p": "Meshing Cogs.",
+        "3_alt2": "Carve the Moon.",
+        "4_alt3": "Carve the Moon. (alternative option)."
+      },
+      "stats_needed": "ATK% (buff scales on her ATK). SPD. Energy Regen.",
+      "relics": {
+        "cavern": "4pc Musketeer of Wild Wheat.",
+        "planar": "Fleet of Ageless or Space Sealing Station.",
+        "main_stats": "Body: ATK%. Feet: SPD. Sphere: ATK%. Rope: ERR.",
+        "sub_stats": "ATK% > SPD > ERR"
+      },
+      "teams": {
+        "general": "Budget ATK buffer for any DPS. Great with energy-hungry units.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill buffs one ally's ATK + adds bonus Lightning DMG to their attacks. Ultimate regens 50 Energy for one ally. Great for charging expensive Ultimates.",
+      "important_traces": "Skill ATK buff. Ultimate Energy regen."
+    }
+  },
+  {
+    "id": "topaz",
+    "title": "Topaz & Numby — Fire Hunt Sub-DPS",
+    "content": {
+      "overview": "5-star Fire Hunt follow-up sub-DPS. Numby autonomously attacks marked enemies. Key component of Feixiao teams.",
+      "light_cones": {
+        "best": "Worrisome Blissful (signature).",
+        "f2p": "Swordplay. Cruising in Stellar Sea.",
+        "3_alt2": "Subscribe for More.",
+        "4_alt3": "Subscribe for More. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Fire DMG.",
+      "relics": {
+        "cavern": "4pc The Ashblazing Grand Duke.",
+        "planar": "Duran Dynasty of Running Wolves.",
+        "main_stats": "Body: CRIT. Feet: SPD/ATK%. Sphere: Fire DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK%"
+      },
+      "teams": {
+        "premium": "Feixiao + Robin + Topaz + Aventurine.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Mark enemy with Proof of Debt. Numby auto follow-ups when allies attack marked enemy. Ultimate = Windfall Bonanza (AoE + CRIT DMG). Auto-pilot.",
+      "important_traces": "Numby follow-up. Proof of Debt. Ultimate enhancement."
+    }
+  },
+  {
+    "id": "trailblazer-destruction",
+    "title": "Trailblazer (Destruction) — Physical Destruction DPS (Free)",
+    "content": {
+      "overview": "Free Physical Destruction starter DPS. Basic AoE Physical damage. Early game only — quickly outclassed.",
+      "light_cones": {
+        "best": "On the Fall of an Aeon.",
+        "f2p": "Collapsing Sky.",
+        "3_alt2": "A Secret Vow.",
+        "4_alt3": "A Secret Vow. (alternative option)."
+      },
+      "stats_needed": "CRIT, ATK%, Physical DMG.",
+      "relics": {
+        "cavern": "4pc Champion of Streetwise Boxing.",
+        "planar": "Space Sealing Station.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Physical DMG. Rope: ATK%.",
+        "sub_stats": "CRIT > ATK%"
+      },
+      "teams": {
+        "early": "Early game starter. Replace ASAP.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Basic Physical AoE DPS. Ultimate deals AoE damage. Starter character.",
+      "important_traces": "Basic DPS traces."
+    }
+  },
+  {
+    "id": "trailblazer-preservation",
+    "title": "Trailblazer (Preservation) — Fire Preservation Sustain (Free)",
+    "content": {
+      "overview": "Free Fire Preservation sustain. Shields + taunt. Can apply Burn via Trend of Universal Market LC for Acheron stack generation.",
+      "light_cones": {
+        "best": "Trend of Universal Market — Burn on hit (great for Acheron).",
+        "f2p": "Defense. Landau's Choice.",
+        "3_alt2": "Day One of My New Life.",
+        "4_alt3": "Day One of My New Life. (alternative option)."
+      },
+      "stats_needed": "DEF%, HP%, SPD, Effect RES.",
+      "relics": {
+        "cavern": "4pc Knight of Purity Palace.",
+        "planar": "Broken Keel or Belobog.",
+        "main_stats": "Body: DEF%. Feet: SPD. Sphere: DEF%. Rope: ERR.",
+        "sub_stats": "DEF% > SPD > Effect RES"
+      },
+      "teams": {
+        "acheron": "Budget Acheron team (Burn = debuff for stacks).",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Shield + taunt. With Trend of Universal Market, applies Burn for Acheron stack gen.",
+      "important_traces": "Shield + taunt. Burn via LC for Acheron."
+    }
+  },
+  {
+    "id": "trailblazer-harmony",
+    "title": "Trailblazer (Harmony) — Imaginary Harmony Support (Free)",
+    "content": {
+      "overview": "Free Imaginary Harmony Super Break enabler. 160% Super Break multiplier at max stacks. F2P cornerstone of Break teams. E6 + Dance! Dance! Dance! = action advance spam.",
+      "light_cones": {
+        "best": "Memories of the Past.",
+        "f2p": "Dance! Dance! Dance! — team action advance. Meshing Cogs.",
+        "3_alt2": "Carve the Moon.",
+        "4_alt3": "Carve the Moon. (alternative option)."
+      },
+      "stats_needed": "Break Effect, SPD, Energy Regen, HP%.",
+      "relics": {
+        "cavern": "4pc Watchmaker Master of Dream Machinations.",
+        "planar": "Penacony or Sprightly Vonwacq.",
+        "main_stats": "Body: HP%/Effect RES. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "BE > SPD > HP%"
+      },
+      "teams": {
+        "f2p": "Firefly + Harmony MC + Ruan Mei + Gallagher.",
+        "budget": "Firefly + Harmony MC + Ruan Mei + Gallagher."
+      },
+      "playstyle": "Skill builds Super Break stacks (160% multiplier). Ultimate buffs team BE. E6 + ERR rope + Dance! = Ultimate spam for team action advance.",
+      "important_traces": "Super Break multiplier stacking. E6 power spike."
+    }
+  },
+  {
+    "id": "trailblazer-remembrance",
+    "title": "Trailblazer (Remembrance) — Ice Remembrance Support (Free)",
+    "content": {
+      "overview": "Free Ice Remembrance support. Memosprite Mem deals True DMG when supported ally attacks. Strong budget Remembrance support for Castorice.",
+      "light_cones": {
+        "best": "Remembrance LCs.",
+        "f2p": "Any available Remembrance LC.",
+        "3_alt2": "High base stat off-path LCs.",
+        "4_alt3": "High base stat off-path LCs. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG (for Mem's True DMG). SPD. HP%.",
+      "relics": {
+        "cavern": "4pc Poet of Mourning Collapse or offensive sets.",
+        "planar": "Bone Collection or CRIT sets.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: varies. Rope: ATK%/ERR.",
+        "sub_stats": "CRIT > SPD > ATK%"
+      },
+      "teams": {
+        "castorice": "Castorice + Remembrance MC + Cyrene + Hyacine.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Assign Mem to DPS. Mem uses Lemme Help You for True DMG on every DPS attack. Very low maintenance once assigned.",
+      "important_traces": "Mem's True DMG scaling with CRIT."
+    }
+  },
+  {
+    "id": "trailblazer-elation",
+    "title": "Trailblazer (Elation) — Lightning Elation Support (Free)",
+    "content": {
+      "overview": "Free Lightning Elation support unlocked in v4.2. Supports the Elation archetype alongside Evanescia and Silver Wolf LV.999. Provides Certified Banger and Elation team synergies.",
+      "light_cones": {
+        "best": "Elation path LCs.",
+        "f2p": "Free event LCs.",
+        "3_alt2": "Energy Regen LCs.",
+        "4_alt3": "Energy Regen LCs. (alternative option)."
+      },
+      "stats_needed": "SPD, Energy Regen, ATK%, CRIT DMG.",
+      "relics": {
+        "cavern": "Elation support sets or Ever-Glorious Magical Girl.",
+        "planar": "Elation-focused ornaments.",
+        "main_stats": "Body: varies. Feet: SPD. Sphere: varies. Rope: ERR.",
+        "sub_stats": "SPD > ERR > ATK%"
+      },
+      "teams": {
+        "elation": "Evanescia + Yao Guang + Elation MC + Huohuo.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Free Elation support providing Certified Banger synergies and Elation team utility. Unlocked via v4.2 Trailblaze Mission.",
+      "important_traces": "Elation synergy and Certified Banger support."
+    }
+  },
+  {
+    "id": "welt",
+    "title": "Welt — Imaginary Nihility Sub-DPS",
+    "content": {
+      "overview": "5-star Imaginary Nihility sub-DPS/debuffer. Slows enemies and reduces DMG dealt. Standard banner. Budget Acheron partner (counts as Nihility).",
+      "light_cones": {
+        "best": "In the Name of the World (signature) — ATK + EHR + DMG vs debuffed.",
+        "f2p": "Eyes of the Prey. Good Night and Sleep Well.",
+        "3_alt2": "Resolution Shines.",
+        "4_alt3": "Resolution Shines. (alternative option)."
+      },
+      "stats_needed": "ATK%, EHR, SPD, Imaginary DMG.",
+      "relics": {
+        "cavern": "4pc Wastelander of Banditry Desert or Prisoner.",
+        "planar": "Pan-Cosmic Commercial or Space Sealing Station.",
+        "main_stats": "Body: ATK%/EHR. Feet: SPD. Sphere: Imaginary DMG. Rope: ATK%.",
+        "sub_stats": "ATK% > EHR > SPD"
+      },
+      "teams": {
+        "acheron": "Budget Acheron Nihility partner (Slow = debuff for stacks).",
+        "general": "Slow utility for any team.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Skill deals Imaginary DMG + Slow. Ultimate AoE + Slow + Imprisonment (reduced action). Counts as Nihility for Acheron. Slow utility.",
+      "important_traces": "Slow application. Imprisonment. Nihility teammate utility."
+    }
+  },
+  {
+    "id": "xueyi",
+    "title": "Xueyi — Quantum Destruction DPS (4-star)",
+    "content": {
+      "overview": "4-star Quantum Destruction DPS scaling on Break Effect. Follow-up attacks after accumulating Karma stacks from Toughness damage. Budget Quantum DPS.",
+      "light_cones": {
+        "best": "On the Fall of an Aeon.",
+        "f2p": "A Secret Vow.",
+        "3_alt2": "Indelible Promise.",
+        "4_alt3": "Indelible Promise. (alternative option)."
+      },
+      "stats_needed": "Break Effect, CRIT Rate/DMG, ATK%, Quantum DMG.",
+      "relics": {
+        "cavern": "4pc Genius of Brilliant Stars or Iron Cavalry.",
+        "planar": "Talia Kingdom or Inert Salsotto.",
+        "main_stats": "Body: CRIT. Feet: SPD. Sphere: Quantum DMG. Rope: BE%.",
+        "sub_stats": "BE > CRIT > ATK%"
+      },
+      "teams": {
+        "f2p": "Budget Quantum/Break DPS.",
+        "budget": "Budget Quantum/Break DPS."
+      },
+      "playstyle": "Accumulate Karma stacks from Toughness damage. At max stacks, follow-up attack deals DMG ignoring DEF based on Break Effect. Hybrid CRIT + Break build.",
+      "important_traces": "Karma stacks. DEF ignore scaling with BE."
+    }
+  },
+  {
+    "id": "yanqing",
+    "title": "Yanqing — Ice Hunt DPS",
+    "content": {
+      "overview": "5-star Ice Hunt single-target DPS. Gets CRIT buffs from Soulsteel Sync (maintained while not hit). Standard banner. Fragile — needs shields.",
+      "light_cones": {
+        "best": "Sleep Like the Dead (standard) — CRIT DMG.",
+        "f2p": "Cruising in Stellar Sea.",
+        "3_alt2": "Swordplay.",
+        "4_alt3": "Swordplay. (alternative option)."
+      },
+      "stats_needed": "CRIT DMG primary (gets CRIT Rate from Soulsteel). ATK%, Ice DMG, SPD.",
+      "relics": {
+        "cavern": "4pc Hunter of Glacial Forest.",
+        "planar": "Rutilant Arena or Inert Salsotto.",
+        "main_stats": "Body: CRIT DMG. Feet: SPD. Sphere: Ice DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "Yanqing + Sparkle + sustain with shields (Gepard/Aventurine).",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Maintain Soulsteel Sync for CRIT buffs (lost if hit). Needs shielder to protect him. Single-target Ice burst. Fragile but hits hard when protected.",
+      "important_traces": "Soulsteel Sync CRIT buffs. Needs shield protection."
+    }
+  },
+  {
+    "id": "yao-guang",
+    "title": "Yao Guang — Imaginary Elation Support",
+    "content": {
+      "overview": "5-star Imaginary Elation support. Deploys Elation Field and triggers Aha Instant for Elation team resource loops. T0 tier. Priority for Elation teams with Evanescia/SW999.",
+      "light_cones": {
+        "best": "Her signature LC.",
+        "f2p": "Elation support LCs.",
+        "3_alt2": "Energy Regen LCs.",
+        "4_alt3": "Energy Regen LCs. (alternative option)."
+      },
+      "stats_needed": "SPD, Energy Regen, ATK%, HP%.",
+      "relics": {
+        "cavern": "Support/Elation sets.",
+        "planar": "Penacony or Elation ornaments.",
+        "main_stats": "Body: varies. Feet: SPD. Sphere: varies. Rope: ERR.",
+        "sub_stats": "SPD > ERR > ATK%"
+      },
+      "teams": {
+        "premium": "Evanescia + Yao Guang + Elation MC + Huohuo.",
+        "sw999": "Silver Wolf LV.999 + Yao Guang + Sparxie + sustain.",
+        "budget": "Any DPS + Asta + Natasha + flex."
+      },
+      "playstyle": "Deploy Elation Field. Trigger Aha Instant for Certified Banger cycling. Core Elation support enabling Evanescia and SW999 teams.",
+      "important_traces": "Elation Field. Aha Instant triggers. Certified Banger cycling."
+    }
+  },
+  {
+    "id": "yukong",
+    "title": "Yukong — Imaginary Harmony Support (4-star)",
+    "content": {
+      "overview": "4-star Imaginary Harmony buffer providing ATK and CRIT buffs. Requires precise timing — buffs only last until her next turn. High skill ceiling but awkward to use.",
+      "light_cones": {
+        "best": "Dance! Dance! Dance!.",
+        "f2p": "Meshing Cogs.",
+        "3_alt2": "Memories of the Past.",
+        "4_alt3": "Memories of the Past. (alternative option)."
+      },
+      "stats_needed": "SPD (precise tuning), Energy Regen, ATK%, CRIT DMG.",
+      "relics": {
+        "cavern": "4pc Messenger.",
+        "planar": "Penacony or Fleet of Ageless.",
+        "main_stats": "Body: ATK%/HP%. Feet: SPD. Sphere: HP%. Rope: ERR.",
+        "sub_stats": "SPD > HP% > ATK%"
+      },
+      "teams": {
+        "f2p": "Budget Harmony option but hard to use. Bronya/Asta are usually easier.",
+        "budget": "Budget Harmony option but hard to use. Bronya/Asta are usually easier."
+      },
+      "playstyle": "Skill buffs ATK. Enhanced Skill buffs CRIT Rate + CRIT DMG. Buffs expire at her next turn so DPS must act immediately after. Requires precise speed tuning.",
+      "important_traces": "Enhanced Skill CRIT buffs. Timing-dependent gameplay."
+    }
+  },
+  {
+    "id": "yunli",
+    "title": "Yunli — Physical Destruction DPS",
+    "content": {
+      "overview": "5-star Physical Destruction counter DPS. Uses counter-based attacks with massive Physical DMG when attacked during Ultimate. Wants to be targeted.",
+      "light_cones": {
+        "best": "Dance at Sunset (signature) — follow-up DMG after Ultimate.",
+        "f2p": "On the Fall of an Aeon. Something Irreplaceable.",
+        "3_alt2": "A Secret Vow.",
+        "4_alt3": "A Secret Vow. (alternative option)."
+      },
+      "stats_needed": "CRIT Rate/DMG, ATK%, Physical DMG. SPD less important (counter-based).",
+      "relics": {
+        "cavern": "4pc Champion of Streetwise Boxing or Wind-Soaring Valorous.",
+        "planar": "Duran Dynasty or Inert Salsotto.",
+        "main_stats": "Body: CRIT. Feet: ATK%/SPD. Sphere: Physical DMG. Rope: ATK%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > ATK%"
+      },
+      "teams": {
+        "premium": "Yunli + Robin + Tingyun + sustain.",
+        "f2p": "Yunli + Asta + Tingyun + healer.",
+        "budget": "Yunli + Asta + Tingyun + healer."
+      },
+      "playstyle": "Ultimate enters Parry state. When attacked during Parry = devastating counter dealing massive Physical AoE. Use taunt/aggro supports to ensure she's targeted. Huge burst potential.",
+      "important_traces": "Ultimate Parry counter. Aggro management. CRIT scaling."
+    }
+  },
+  {
+    "id": "hyacine",
+    "title": "Hyacine — Wind Remembrance Sustain",
+    "content": {
+      "overview": "5-star Wind Remembrance healer. Extremely fast sustain unit with memosprite Little Ica. Heals all allies on Skill/Ultimate, scales with HP and SPD. 100% innate CRIT Rate from A6 trace. Best-in-slot sustain for Castorice and HP-scaling teams. Little Ica deals AoE damage based on cumulative healing done.",
+      "light_cones": {
+        "1_best": "Long May Rainbows Adorn the Sky (signature) — SPD boost + team HP drain mechanic + Vulnerability debuff from memosprite.",
+        "2_alt": "Memory's Curtain Never Falls — HP% + Outgoing Healing + DEF ignore for memosprite abilities.",
+        "3_alt2": "We Will Meet Again (Castorice's signature) — HP% + memosprite DMG, but better kept on Castorice.",
+        "4_f2p": "Victory in a Blink — CRIT DMG + ally buff when memosprite uses supportive actions.",
+        "5_f2p2": "Shared Feeling — Energy regen on Skill use, good for frequent Ultimate cycling."
+      },
+      "stats_needed": "SPD 200+ in combat (critical threshold for A2 trace Tempestuous Halt). HP% for healing scaling. CRIT DMG for damage (never build CRIT Rate — she has 100% innate). Energy Regen for Ultimate uptime.",
+      "relics": {
+        "set_1": "4pc Warrior Goddess of Sun and Thunder — 12% SPD + 15% team CRIT DMG via Gentle Rain. Best overall set.",
+        "set_2": "4pc Giant Tree of Rapt Brooding — 24% HP + 15% team DMG buff after memosprite actions. Alt for more healing.",
+        "set_3": "2pc Warrior Goddess (SPD) + 2pc Longevous Disciple (HP%) — transitional split set.",
+        "planar": "Giant Tree of Rapt Brooding — SPD% + Outgoing Healing at 135/180 SPD breakpoints.",
+        "main_stats": "Body: Outgoing Healing. Feet: SPD. Sphere: HP%. Rope: Energy Regen.",
+        "sub_stats": "SPD > HP% > CRIT DMG > Effect RES > Flat HP"
+      },
+      "teams": {
+        "premium": "Castorice + Tribbie + Hyacine + Remembrance MC (HP-scaling core, maximum Newbud generation).",
+        "alt": "Mydei + Cyrene + Cerydra + Hyacine (Chrysos Heir synergy, HP buffs for Mydei).",
+        "f2p": "Blade + Robin + Bronya + Hyacine (sig LC HP drain feeds Blade's Talent follow-ups).",
+        "budget": "Acheron + Jiaoqiu + Pela + Hyacine (sig LC Vulnerability counts as debuff for Acheron stacks)."
+      },
+      "playstyle": "Use Skill to summon Little Ica and heal all allies. Ultimate restores HP, increases team Max HP, and resummons Ica. Little Ica heals whenever any ally loses HP and deals AoE damage based on healing tally. Aim for 200+ SPD to activate Tempestuous Halt for bonus healing per SPD point above 200.",
+      "important_traces": "A6 (Gloomy Grin): 100% CRIT Rate for Hyacine and Little Ica — never build CRIT Rate. A2 (Tempestuous Halt): Above 200 SPD, each extra point increases healing. A4: Debuff cleanse on Ultimate."
+    }
+  },
+  {
+    "id": "mydei",
+    "title": "Mydei — Imaginary Destruction DPS",
+    "content": {
+      "overview": "5-star Imaginary Destruction HP-scaling DPS. Consumes own HP to deal massive Skill damage. At 100 Charge enters Vendetta state — auto-attacks with enhanced Skills, gains 50% Max HP, and cannot be killed (up to 3 times per battle). Extremely self-sufficient and low-maintenance.",
+      "light_cones": {
+        "1_best": "Flame of Blood, Blaze My Path (signature) — 60% DMG increase, HP drain for faster Charge, massive base HP.",
+        "2_alt": "The Unreachable Side (Blade's sig) — CRIT Rate + Max HP + DMG on HP loss. Strong but wastes some CRIT Rate.",
+        "3_alt2": "A Secret Vow — 20% DMG increase, simple and effective unconditional buff.",
+        "4_f2p": "Ninja Record: Sound Hunt (event) — Max HP% + CRIT DMG on HP loss/restore.",
+        "5_f2p2": "Flames Afar — DMG% when cumulative HP loss exceeds 25% Max HP + self-heal."
+      },
+      "stats_needed": "Max HP 8000+ outside combat (for max A2 CRIT Rate passive). CRIT DMG priority (he gets CRIT Rate from HP). SPD for more turns. Aim for ~90-100% CRIT Rate total.",
+      "relics": {
+        "set_1": "4pc Scholar Lost in Erudition — Skill/Ultimate DMG boost. Most of his damage is Skill-based.",
+        "set_2": "4pc Longevous Disciple — 12% Max HP + CRIT Rate on HP consumption (easy full uptime).",
+        "set_3": "2pc Longevous Disciple (HP) + 2pc Musketeer (ATK) — transitional split.",
+        "planar": "Bone Collection's Serene Demesne — HP + 28% CRIT DMG at 5000+ HP (always active for Mydei).",
+        "main_stats": "Body: CRIT DMG. Feet: SPD. Sphere: HP%. Rope: HP%.",
+        "sub_stats": "CRIT DMG > CRIT Rate > HP% > SPD"
+      },
+      "teams": {
+        "premium": "Mydei + Cyrene + Cerydra + Hyacine (full Chrysos Heir team, Cyrene buffs Godslayer).",
+        "alt": "Mydei + Tribbie + Remembrance MC + Gallagher (Tribbie RES PEN + zone DMG amplification).",
+        "f2p": "Mydei + Remembrance MC + Pela + Gallagher (DEF shred + CRIT DMG buff).",
+        "budget": "Mydei + Asta + Natasha + any flex (budget sustain + SPD buff)."
+      },
+      "playstyle": "Use Skill to consume 50% current HP and deal Blast Imaginary DMG. Losing HP builds Charge via Talent. At 100 Charge, enters Vendetta — restores HP, gains 50% Max HP, DEF drops to 0, auto-casts enhanced Skills. At 150 Charge during Vendetta, unleashes Godslayer Be God (massive AoE). If killed during Vendetta, restores 50% HP instead (up to 3 times). Ultimate deals AoE DMG + restores HP + gains Charge + taunts enemies.",
+      "important_traces": "A2 (Bloodied Chiton): Every 100 HP above 4000 grants CRIT Rate (up to ~20%). A4: Cannot be controlled during Vendetta but auto-targets marked enemies. A6: HP restoration on entering Vendetta."
+    }
+  },
+  {
+    "id": "rappa",
+    "title": "Rappa — Imaginary Erudition Break DPS",
+    "content": {
+      "overview": "5-star Imaginary Erudition AoE Break DPS. Uses Ultimate to enter Sealform state with Enhanced Basic Attacks that rapidly deplete enemy Toughness regardless of Weakness Type. Built-in Super Break from traces. Dominates Pure Fiction and multi-target content.",
+      "light_cones": {
+        "1_best": "Ninjutsu Inscription: Dazzling Evilbreaker (signature) — 60% Break Effect + 30 Energy on battle start + Raiton action advance.",
+        "2_alt": "After the Charmony Fall — 28% Break Effect + 8% SPD after Ultimate.",
+        "3_alt2": "Make the World Clamor — Energy restoration on battle start + Ultimate DMG increase.",
+        "4_f2p": "On the Fall of an Aeon (Herta Store) — ATK stacking, converts to Break via high BE builds.",
+        "5_f2p2": "The Seriousness of Breakfast — ATK% stacking per enemy killed."
+      },
+      "stats_needed": "Break Effect 250%+ (for Iron Cavalry 4pc full DEF ignore). SPD 145-160 for breakpoints. ATK 3200+ secondary. CRIT stats unnecessary — all damage is Break-based.",
+      "relics": {
+        "set_1": "4pc Iron Cavalry Against the Scourge — Break Effect + Break/Super Break DMG ignores DEF at 150/250% BE.",
+        "set_2": "4pc Thief of Shooting Meteor — Break Effect + Energy on Weakness Break. Best for Pure Fiction.",
+        "set_3": "2pc Iron Cavalry + 2pc Thief of Shooting Meteor — hybrid Break Effect baseline.",
+        "planar": "Talia: Kingdom of Banditry — 16% BE + extra 20% BE at 145+ SPD.",
+        "main_stats": "Body: ATK%. Feet: SPD. Sphere: ATK%. Rope: Break Effect.",
+        "sub_stats": "Break Effect > SPD > ATK% > ATK"
+      },
+      "teams": {
+        "premium": "Rappa + Fugue + The Dahlia + Lingsha (full Super Break team with Weakness implant).",
+        "alt": "Rappa + Fugue + Ruan Mei + Gallagher (Break DMG amplification + sustain).",
+        "f2p": "Rappa + Harmony MC + Ruan Mei + Gallagher (F2P Super Break core).",
+        "budget": "Rappa + Harmony MC + Asta + Natasha (full F2P Break team)."
+      },
+      "playstyle": "Use Skill for AoE Imaginary DMG and energy gain. Activate Ultimate to enter Sealform — Enhanced Basic Attacks hit all enemies, reduce Toughness regardless of Weakness, and deal Super Break DMG. Talent stacks Charge on Weakness Break for bonus Break DMG on 3rd Enhanced Basic hit. Very SP hungry during Sealform (uses Basic ATK, no SP cost).",
+      "important_traces": "A2 (Sky High): Extra Charge + 10 Energy when elite enemies are Weakness Broken. A4 (Ninja Hideout): Super Break DMG equal to 60% of Rappa's Break Effect. A6 (Hidden Ninja Art): Enhanced Basic 3rd hit deals Toughness DMG regardless of Weakness."
+    }
+  },
+  {
+    "id": "tribbie",
+    "title": "Tribbie — Quantum Harmony Support",
+    "content": {
+      "overview": "5-star Quantum Harmony support. Provides team-wide All-Type RES PEN via Skill. Ultimate creates a Zone that increases enemy damage taken by 30% and allows Tribbie to deal follow-up AoE Quantum DMG (scaling with Max HP) when allies hit enemies. Follow-up attacks triggered by ally Ultimates.",
+      "light_cones": {
+        "1_best": "If Time Were a Flower (signature) — 36% CRIT DMG + team CRIT DMG buff + Energy regen on follow-up attacks.",
+        "2_alt": "But the Battle Isn't Over (Bronya's sig) — Energy + team DMG buff on Ultimate. Strong if available.",
+        "3_alt2": "Dance! Dance! Dance! — Advances all allies' actions on Ultimate. Excellent for rotation speed.",
+        "4_f2p": "Memories of the Past — Energy regen on attack. Solves energy needs.",
+        "5_f2p2": "Meshing Cogs — Energy on attack. Budget energy solution."
+      },
+      "stats_needed": "HP% for damage scaling (all attacks scale off Max HP). CRIT Rate/DMG for personal damage. Energy Regen for frequent Ultimates. SPD varies by build — slow CRIT build (sub-95 SPD) or fast rotation build (160+ SPD).",
+      "relics": {
+        "set_1": "4pc Poet of Mourning Collapse — CRIT Rate at low SPD thresholds (12% at ≤110, 18% at ≤95). Best for slow CRIT build.",
+        "set_2": "4pc Eagle of Twilight Line — 25% action advance after Ultimate. Best for fast rotation build.",
+        "set_3": "2pc Messenger Traversing Hackerspace (SPD) + 2pc Longevous Disciple (HP) — hybrid approach.",
+        "planar": "Bone Collection's Serene Demesne — HP + CRIT DMG at 5000+ HP. Or Sprightly Vonwacq for action advance.",
+        "main_stats": "Body: CRIT Rate. Feet: HP% (slow) or SPD (fast). Sphere: HP%. Rope: Energy Regen (or HP% with sig LC).",
+        "sub_stats": "CRIT Rate > CRIT DMG > HP% > Energy Regen > SPD"
+      },
+      "teams": {
+        "premium": "The Herta + Anaxa + Tribbie + sustain (dual Erudition AoE, Tribbie zone maximizes multi-hit value).",
+        "alt": "Castorice + Remembrance MC + Tribbie + Hyacine (HP-scaling burst loop).",
+        "f2p": "Serval + Herta + Tribbie + sustain (F2P AoE team, frequent Ultimates trigger follow-ups).",
+        "budget": "Argenti + Tribbie + Tingyun + sustain (Argenti's AoE Ultimate synergizes with Zone)."
+      },
+      "playstyle": "Use Skill to apply Numinosity (All-Type RES PEN for 3 turns). Ultimate deals AoE Quantum DMG and creates Zone for 2 turns — enemies in Zone take 30% more DMG, and Tribbie deals follow-up Quantum DMG when allies hit them. Talent triggers follow-up AoE attack when allies use Ultimate (once per ally, reset by Tribbie's own Ultimate). Very high personal damage for a Harmony unit.",
+      "important_traces": "A2 (Lamb Outside the Wall): Follow-up attacks gain stacking DMG bonus (up to 90%). A4 (Glass Ball with Wings): Max HP increases based on all allies' Max HP during Zone. A6 (Pebble at Crossroads): Energy regen when allies hit enemies in Zone."
+    }
+  },
+  {
+    "id": "saber",
+    "title": "Saber — Wind Destruction DPS (Fate Collab, Limited)",
+    "content": {
+      "overview": "5-star Wind Destruction DPS from the Fate/Stay Night collaboration. Ultimate-focused burst DPS with 360 Energy cost and Core Resonance mechanic. Gains Energy and DMG bonuses from ally Ultimates. Delivers massive single-target burst via bouncing Excalibur hits. True limited — cannot be obtained after collab ends.",
+      "light_cones": {
+        "1_best": "A Thankless Coronation (signature) — CRIT DMG + ATK% + Energy restoration when energy bar is full.",
+        "2_alt": "Thus Burns the Dawn (Phainon's sig) — DMG% increase + 18% DEF ignore.",
+        "3_alt2": "A Trail of Bygone Blood — CRIT DMG + DMG% when HP consumed.",
+        "4_f2p": "On the Fall of an Aeon (Herta Store) — ATK stacking on attack, strong and free.",
+        "5_f2p2": "Woof! Walk Time! — ATK% + DMG% increase, decent 4-star option."
+      },
+      "stats_needed": "CRIT Rate ~80% (gets 20% from traces). CRIT DMG 120%+ (gets bonus from Crown of the Star trace). SPD 135-165 for Glamoth breakpoints. ATK% for scaling.",
+      "relics": {
+        "set_1": "4pc Wavestrider Captain — CRIT DMG + 48% ATK boost when receiving ally buffs and using Ultimate.",
+        "set_2": "4pc Scholar Lost in Erudition — CRIT Rate + Skill/Ultimate DMG boost. Solid alternative.",
+        "set_3": "2pc Wavestrider Captain (CRIT DMG) + 2pc Musketeer of Wild Wheat (ATK) — transitional.",
+        "planar": "Firmament Frontline: Glamoth — ATK% + DMG% scaling with SPD (135/165 breakpoints).",
+        "main_stats": "Body: CRIT Rate or CRIT DMG. Feet: SPD. Sphere: Wind DMG. Rope: ATK%.",
+        "sub_stats": "CRIT Rate > CRIT DMG > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "Saber + Sunday + Tribbie + Permansor Terrae (hypercarry, Sunday advances Saber's turns).",
+        "alt": "Saber + Robin + Sunday + Huohuo (action advance + ATK buff + Energy support).",
+        "f2p": "Saber + Bronya + Asta + sustain (SPD buff + action advance).",
+        "budget": "Saber + Tingyun + Pela + Natasha (Energy battery + DEF shred)."
+      },
+      "playstyle": "Core Resonance builds as allies use Ultimates, granting Saber fixed Energy. Enhanced Skill becomes available with enough Resonance stacks, dealing high bouncing Wind DMG. Ultimate (Excalibur) costs 360 Energy — highest in the game — but deals devastating AoE burst. Plan rotations around feeding Saber energy through ally Ultimates and supports.",
+      "important_traces": "Crown of the Star: Gains CRIT DMG based on energy threshold. Knight of the Dragon: 20% innate CRIT Rate. A2: Gains Core Resonance when allies use Ultimates. A6: Excess Energy mechanic allows overcapping."
+    }
+  },
+  {
+    "id": "silver-wolf-lv999",
+    "title": "Silver Wolf LV.999 — Imaginary Elation DPS",
+    "content": {
+      "overview": "5-star Imaginary Elation DPS. Speed-scaling damage dealer who ramps via Punchline stacks converted to Hidden MMR. At 60 MMR, enters Godmode Player state with enhanced Basic ATK (massive multi-hit bounces) and Elation Skills. One of the strongest DPS in the game. Requires Elation teammates to function optimally.",
+      "light_cones": {
+        "1_best": "Welcome to the Cosmic City (signature) — 18% SPD + Elation DMG ignores 20% DEF + 20 Punchline on Ultimate.",
+        "2_alt": "Today's Good Luck (Battle Pass) — CRIT Rate + Elation% on Elation Skill use.",
+        "3_alt2": "Mushy Shroomy's Adventures (free from Furbobo) — Elation% + enemy damage taken increase.",
+        "4_f2p": "Incessant Rain — CRIT Rate + Effect Hit Rate + Vulnerability debuff.",
+        "5_f2p2": "Fermata — Break Effect + DMG% vs debuffed enemies. Niche but functional."
+      },
+      "stats_needed": "SPD 200+ with sig LC (160+ without). CRIT Rate ~80-90% (excess converts to CRIT DMG via Talent). CRIT DMG secondary. ATK% for A2 trace Elation conversion (up to 120% Elation at 4400 ATK).",
+      "relics": {
+        "set_1": "4pc Ever-Glorious Magical Girl — CRIT DMG + Elation DMG ignores DEF (up to 20% with Punchline stacks).",
+        "set_2": "4pc Diviner of Distant Reach — SPD + CRIT Rate. For speed-tuning builds.",
+        "set_3": "2pc Ever-Glorious Magical Girl + 2pc Diviner of Distant Reach — hybrid option.",
+        "planar": "Punklorde Stage Zero — Elation% + CRIT DMG at 40/80% Elation thresholds. Only viable option.",
+        "main_stats": "Body: CRIT Rate. Feet: SPD. Sphere: Imaginary DMG or ATK%. Rope: ATK% or Energy Regen.",
+        "sub_stats": "CRIT Rate ≈ CRIT DMG > ATK% > SPD"
+      },
+      "teams": {
+        "premium": "SW LV.999 + Yao Guang + Sparxie + Huohuo (full Elation core, Yao Guang essential for max output).",
+        "alt": "SW LV.999 + Yao Guang + Sparkle + Huohuo (Sparkle action advance instead of Sparxie).",
+        "f2p": "SW LV.999 + Elation MC + Asta + Huohuo (F2P Elation with SPD support).",
+        "budget": "SW LV.999 + Elation MC + Asta + Permansor Terrae (full F2P, shield sustain)."
+      },
+      "playstyle": "Skill deals AoE Imaginary DMG and generates 5 Punchline. Talent converts Punchline to Hidden MMR at 1:1. At 60 MMR, Ultimate enters Godmode Player — advances action 100%, deploys Zone, unlocks Enhanced Basic ATK (multi-hit bounces) and Enhanced Elation Skill. During Godmode, allies consuming SP in Zone can trigger Top Loot Boxes (AoE Imaginary Elation DMG). Excess CRIT Rate above 100% converts to CRIT DMG.",
+      "important_traces": "A2 (False End Speedrun): Converts ATK into Elation% (up to 120% at 4400 ATK). A4: Enhanced Basic bounces scale with Hidden MMR. A6 (McAwolfee 999): Global passive — if any enemy inflicts CC on an ally, all allies gain Firewall (CC immunity 1 turn). Works even when not in active party."
+    }
+  }
+]

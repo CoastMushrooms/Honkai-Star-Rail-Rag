@@ -37,9 +37,9 @@ python rag.py "your question"      # single question
 
 ## Adding documents
 
-**Via the web UI** — click "Add documents" or drag and drop files directly onto the page. Supports `.txt`, `.md`, `.json`, `.csv`, `.pdf`, and `.docx`.
+**Via the web UI** click "Add documents" or drag and drop files directly onto the page. Supports `.txt`, `.md`, `.json`, `.csv`, `.pdf`, and `.docx`.
 
-**Via JSON** — edit `data/documents.json`. Each entry needs `id`, `title`, and `content`:
+**Via JSON** edit `data/documents.json`. Each entry needs `id`, `title`, and `content`:
 
 ```json
 [
@@ -51,7 +51,7 @@ python rag.py "your question"      # single question
 ]
 ```
 
-**Swapping the dataset** — replace `data/documents.json` with any JSON array of `{id, title, content}` objects. The system works with any domain — company policies, product docs, research papers, game guides, etc.
+**Swapping the dataset** replace `data/documents.json` with any JSON array of `{id, title, content}` objects. The system works with any domain, company policies, product docs, research papers, game guides, etc.
 
 ## API endpoints
 

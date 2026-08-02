@@ -129,6 +129,11 @@ Covers sentence splitting, chunking, vector search semantics, and index operatio
 | Evaluation | Retrieval accuracy scoring via `/evaluate` |
 | Deployment | Docker + Railway/Render ready |
 
+## Deployment Status
+This app currently requires more than 512MB RAM to run (due to sentence-transformers, 
+torch, and FAISS all loading into memory simultaneously). It fails to start on 
+free-tier hosts like Render's free plan (512MB limit).
+
 ## Notes on how this was built
 
 This project was built with Claude as a coding partner. I designed the requirements, architecture, and worked through the code to understand how each piece works. I'm happy to explain decisions or details further.
